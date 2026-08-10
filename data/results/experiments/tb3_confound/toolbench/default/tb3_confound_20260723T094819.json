@@ -1,0 +1,63 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tb3_confound",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {},
+    "timestamp": "20260723T094819",
+    "script": "tb3_confound.py",
+    "duration_seconds": null,
+    "git_commit": "8b27679b1ff4135c68d5424beee1de6de5fd0382",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "357635d04184f04738d9cc1472855f97320a8ed2531f90bce3026f63cd29e241",
+    "argv": [
+      "tb3_confound.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n": 12598,
+    "final_err_rate": 0.15558025083346563,
+    "pure_error_classifier_auc": 0.6714755214443355,
+    "E1": {
+      "all": {
+        "auc": 0.7303096278798413,
+        "p": 9.968179365299262e-283,
+        "n": 12598
+      },
+      "no_error_final": {
+        "auc": 0.7457576599162327,
+        "p": 2.2116060174787283e-199,
+        "n": 10638
+      },
+      "error_final": {
+        "auc": 0.5979797042229603,
+        "p": 8.463578115394593e-14,
+        "n": 1960
+      },
+      "verdict": "signal-beyond-error"
+    },
+    "E3": {
+      "all": {
+        "auc": 0.7222832413292247,
+        "p": 1.636655904737438e-263,
+        "n": 12598
+      },
+      "no_error_final": {
+        "auc": 0.7484742467686488,
+        "p": 9.096941493507351e-204,
+        "n": 10638
+      },
+      "error_final": {
+        "auc": 0.5219522845670034,
+        "p": 0.09451892689335771,
+        "n": 1960
+      },
+      "verdict": "signal-beyond-error"
+    }
+  }
+}

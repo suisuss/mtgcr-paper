@@ -1,0 +1,20 @@
+# Full set: core tier + whatever heavy stack your (re)generation stages
+# need - e.g. an embedding model. Replace the example packages below
+# with your paper's actual dependencies; keep the split so `check` mode
+# and CI never need to install them.
+#
+#   pip install -r requirements.txt
+#
+# GPU (NVIDIA/CUDA): install as-is if your heavy stack is torch-based -
+# the default PyPI wheel bundles CUDA support. CPU-only machines should
+# pull the smaller CPU wheels instead:
+#
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+#
+-r requirements-core.txt
+huggingface-hub==0.28.1
+# Heavy stack for spike 3's PRISM sentence encoding only; spikes 1-2 and
+# `./run.sh check` never import it.
+torch==2.9.1
+sentence-transformers==5.2.0
+pyarrow

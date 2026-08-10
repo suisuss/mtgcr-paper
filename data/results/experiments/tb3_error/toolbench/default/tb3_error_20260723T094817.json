@@ -1,0 +1,46 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tb3_error",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "patterns": [
+        "\"error\"\\s*:\\s*\"[^\"]",
+        "status_code=4",
+        "status_code=5",
+        "HTTPSConnectionPool",
+        "Function executing from",
+        "timeout",
+        "timed out"
+      ],
+      "seed": 42
+    },
+    "timestamp": "20260723T094817",
+    "script": "tb3_error.py",
+    "duration_seconds": null,
+    "git_commit": "8b27679b1ff4135c68d5424beee1de6de5fd0382",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "cbebb8b4634ef166c4f50c71ada87567ed8ed0fbd83cae608a23ad682113e1d4",
+    "argv": [
+      "tb3_error.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_turn_flags": 7627,
+    "turn_flag_rate_over_tool_results": 0.06578118935702272,
+    "mean_conv_true_error_rate": 0.18933163994284805,
+    "conv_error_rate_auc": 0.6944821444175127,
+    "err_share_auc_by_tau": [
+      0.5560292820499204,
+      0.5923447224178787,
+      0.6252732345775436,
+      0.6860813808243269
+    ],
+    "n_samples": 38843
+  }
+}

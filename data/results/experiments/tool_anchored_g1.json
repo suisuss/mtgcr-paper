@@ -1,0 +1,18 @@
+{
+ "dataset": "toolbench",
+ "n_test_failures": 498,
+ "arms": {
+  "gram1_flat": {
+   "accuracy_auc": 0.7939884536980844,
+   "base_recall": 0.785140562248996,
+   "n16_recall": 0.39759036144578314,
+   "manipulability": 0.4936061381074169
+  },
+  "gram1_tethered": {
+   "accuracy_auc": 0.7934113460830233,
+   "base_recall": 0.7871485943775101,
+   "n16_recall": 0.41767068273092367,
+   "manipulability": 0.46938775510204084
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "dataset": "toolbench",
+ "n_test_failures": 498,
+ "arms": {
+  "flat": {
+   "accuracy_auc": 0.7882825264926941,
+   "base_recall": 0.7349397590361446,
+   "n16_recall": 0.3674698795180723,
+   "manipulability": 0.5
+  },
+  "skeleton": {
+   "accuracy_auc": 0.7064484488222875,
+   "base_recall": 0.357429718875502,
+   "n16_recall": 0.357429718875502,
+   "manipulability": 0.0
+  },
+  "drop_assistant": {
+   "accuracy_auc": 0.7685715471318384,
+   "base_recall": 0.6666666666666666,
+   "n16_recall": 0.6666666666666666,
+   "manipulability": 0.0
+  },
+  "drop_assistant_skel": {
+   "accuracy_auc": 0.7687705211396916,
+   "base_recall": 0.7048192771084337,
+   "n16_recall": 0.7048192771084337,
+   "manipulability": 0.0
+  },
+  "typicality": {
+   "accuracy_auc": 0.782033933471308,
+   "base_recall": 0.7248995983935743,
+   "n16_recall": 0.7951807228915663,
+   "manipulability": -0.0969529085872576
+  }
+ }
+}

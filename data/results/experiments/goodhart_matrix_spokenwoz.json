@@ -1,0 +1,47 @@
+{
+ "dataset": "spokenwoz",
+ "n_test_failures": 390,
+ "pool_size": 52228,
+ "arms": {
+  "floor_dense": {
+   "accuracy_auc": 0.6154927268879984,
+   "threshold": 0.5057237086763421,
+   "base_recall": 0.5384615384615384,
+   "recall_n1_drift": 0.4794871794871795,
+   "recall_n16": 0.15897435897435896,
+   "manipulability": 0.7047619047619048,
+   "suppressed_n16": 328,
+   "caught_by_tripwire": null
+  },
+  "foil_trace": {
+   "accuracy_auc": 0.5350293492797248,
+   "threshold": 0.15797383230799733,
+   "base_recall": 0.04358974358974359,
+   "recall_n1_drift": 0.541025641025641,
+   "recall_n16": 0.0,
+   "manipulability": 1.0,
+   "suppressed_n16": 390,
+   "caught_by_tripwire": null
+  },
+  "method_gram": {
+   "accuracy_auc": 0.6379555661233833,
+   "threshold": 0.6327568804221828,
+   "base_recall": 0.6358974358974359,
+   "recall_n1_drift": 0.6025641025641025,
+   "recall_n16": 0.17435897435897435,
+   "manipulability": 0.7258064516129032,
+   "suppressed_n16": 322,
+   "caught_by_tripwire": null
+  },
+  "governed_gram": {
+   "accuracy_auc": 0.6379555661233833,
+   "threshold": 0.6327568804221828,
+   "base_recall": 0.6358974358974359,
+   "recall_n1_drift": 0.6025641025641025,
+   "recall_n16": 0.23076923076923078,
+   "manipulability": 0.6370967741935484,
+   "suppressed_n16": 322,
+   "caught_by_tripwire": 22
+  }
+ }
+}

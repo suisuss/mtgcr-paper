@@ -1,0 +1,6 @@
+{
+ "n_conversations": 12598,
+ "n_prefix_samples": 38843,
+ "mean_thoughts": 1.0939037799835205,
+ "prefix_err_share_mean": 1.0
+}

@@ -1,0 +1,210 @@
+{
+ "seed": 42,
+ "direction_a_outcome": {
+  "target": "toolbench_outcome",
+  "metric": "AUC",
+  "base_degree0": {
+   "auc": 0.7688,
+   "ci95": [
+    0.7456,
+    0.7915
+   ]
+  },
+  "+degree1_slope": {
+   "auc": 0.7745,
+   "ci95": [
+    0.7522,
+    0.7974
+   ],
+   "delta_vs_base": 0.0057
+  },
+  "+slope_shuffled": {
+   "auc": 0.7655,
+   "ci95": [
+    0.7423,
+    0.7877
+   ],
+   "delta_vs_base": -0.0033
+  },
+  "keep_degree1": false,
+  "verdict": "KILL: degree-0 mean-pooling is sufficient for outcome"
+ },
+ "direction_bc_satisfaction": {
+  "sgd": {
+   "lead0": {
+    "n_points_test": 2567,
+    "base_degree0": {
+     "rho": 0.294,
+     "ci95": [
+      0.2431,
+      0.3489
+     ]
+    },
+    "+degree1_slope": {
+     "rho": 0.3737,
+     "ci95": [
+      0.3257,
+      0.4206
+     ],
+     "delta_vs_base": 0.0797
+    },
+    "+slope_shuffled": {
+     "rho": 0.2633,
+     "ci95": [
+      0.2166,
+      0.3155
+     ]
+    },
+    "sentiment_baseline": {
+     "rho": 0.5056,
+     "ci95": [
+      0.4674,
+      0.5436
+     ]
+    },
+    "+acts": {
+     "rho": 0.3403,
+     "ci95": [
+      0.2896,
+      0.3913
+     ],
+     "delta_vs_base": 0.0463
+    },
+    "keep_degree1": false
+   },
+   "lead1": {
+    "n_points_test": 2367,
+    "base_degree0": {
+     "rho": 0.0827,
+     "ci95": [
+      0.0266,
+      0.1382
+     ]
+    },
+    "+degree1_slope": {
+     "rho": 0.1056,
+     "ci95": [
+      0.0478,
+      0.1612
+     ],
+     "delta_vs_base": 0.0229
+    },
+    "+slope_shuffled": {
+     "rho": 0.0887,
+     "ci95": [
+      0.0421,
+      0.1366
+     ]
+    },
+    "sentiment_baseline": {
+     "rho": 0.1526,
+     "ci95": [
+      0.114,
+      0.1912
+     ]
+    },
+    "+acts": {
+     "rho": 0.1001,
+     "ci95": [
+      0.046,
+      0.1532
+     ],
+     "delta_vs_base": 0.0174
+    },
+    "keep_degree1": false
+   }
+  },
+  "mwoz": {
+   "lead0": {
+    "n_points_test": 2311,
+    "base_degree0": {
+     "rho": 0.1587,
+     "ci95": [
+      0.0958,
+      0.2175
+     ]
+    },
+    "+degree1_slope": {
+     "rho": 0.2732,
+     "ci95": [
+      0.2138,
+      0.3262
+     ],
+     "delta_vs_base": 0.1145
+    },
+    "+slope_shuffled": {
+     "rho": 0.1284,
+     "ci95": [
+      0.0653,
+      0.1862
+     ]
+    },
+    "sentiment_baseline": {
+     "rho": 0.3559,
+     "ci95": [
+      0.3112,
+      0.3988
+     ]
+    },
+    "+acts": {
+     "rho": 0.1601,
+     "ci95": [
+      0.0988,
+      0.2205
+     ],
+     "delta_vs_base": 0.0014
+    },
+    "keep_degree1": false
+   },
+   "lead1": {
+    "n_points_test": 2111,
+    "base_degree0": {
+     "rho": 0.0445,
+     "ci95": [
+      -0.0171,
+      0.1047
+     ]
+    },
+    "+degree1_slope": {
+     "rho": 0.095,
+     "ci95": [
+      0.0283,
+      0.159
+     ],
+     "delta_vs_base": 0.0505
+    },
+    "+slope_shuffled": {
+     "rho": 0.0386,
+     "ci95": [
+      -0.0201,
+      0.0976
+     ]
+    },
+    "sentiment_baseline": {
+     "rho": 0.1089,
+     "ci95": [
+      0.0673,
+      0.1527
+     ]
+    },
+    "+acts": {
+     "rho": 0.0414,
+     "ci95": [
+      -0.019,
+      0.1018
+     ],
+     "delta_vs_base": -0.0031
+    },
+    "keep_degree1": false
+   }
+  }
+ },
+ "asymmetry": {
+  "outcome_degree1_delta_auc": 0.0057,
+  "satisfaction_degree1_delta_rho": {
+   "sgd": 0.0797,
+   "mwoz": 0.1145
+  },
+  "note": "velocity helps satisfaction more than outcome iff the rho deltas exceed the auc delta and clear the bar"
+ }
+}

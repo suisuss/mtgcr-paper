@@ -1,0 +1,30 @@
+{
+  "_provenance": {
+    "experiment": "experiments/paper_figures",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "exemplar": 3924,
+      "seed": 42
+    },
+    "timestamp": "20260725T112645",
+    "script": "paper_figures.py",
+    "duration_seconds": null,
+    "git_commit": "6a913b39d630ca5cdb03e134e65b1e22f150ba64",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "20a4c8599e939f3d9cf7a1c4f9dfb58595498a9ec8f6a1dec9b45dc618bf4bf7",
+    "argv": [
+      "paper_figures.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "exemplar": 3924,
+    "risk_before": 0.7115,
+    "risk_after": 0.1352
+  }
+}

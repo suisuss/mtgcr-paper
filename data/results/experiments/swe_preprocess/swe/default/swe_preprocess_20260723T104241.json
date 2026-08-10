@@ -1,0 +1,33 @@
+{
+  "_provenance": {
+    "experiment": "experiments/swe_preprocess",
+    "config": "default",
+    "dataset": "swe",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "target_traj": 12000,
+      "trunc": 500
+    },
+    "timestamp": "20260723T104241",
+    "script": "swe_preprocess.py",
+    "duration_seconds": null,
+    "git_commit": "d88c2bbeb315e4d73af44ad0da0833e46e440c9c",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "3f2d532d30128f0001ca1b1af88174cf2dd8ddbcedfced3fca78dd7f48a2e89d",
+    "argv": [
+      "swe_preprocess.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_trajectories": 11983,
+    "n_instances": 521,
+    "failure_rate": 0.846198781607277,
+    "avg_turns": 52.51990319619461,
+    "total_turns": 629346
+  }
+}

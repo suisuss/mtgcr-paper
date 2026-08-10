@@ -1,0 +1,62 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tb_ladder",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "n_boot": 1000,
+      "keep_delta": 0.01
+    },
+    "timestamp": "20260723T090058",
+    "script": "tb_ladder.py",
+    "duration_seconds": null,
+    "git_commit": "db757c2b608069b43cba9b30623ddf3099fdea0b",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "9393306cc1268ad7381f033f4708cfb6ceebde1eae2a5155110faea8498d6b66",
+    "argv": [
+      "tb_ladder.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n": 12598,
+    "failure_rate": 0.20169868233052865,
+    "oof_auc": {
+      "R1_content_length": 0.8629299807312407,
+      "R2_typed_content": 0.8403321062075254,
+      "R3_typed_structure": 0.8388053698014194,
+      "R4_dynamics_goal": 0.8433011722986141
+    },
+    "ladder": {
+      "R2_typed_content-R1_content_length": {
+        "delta": -0.02259787452371531,
+        "ci": [
+          -0.029140083165829406,
+          -0.016634288635609323
+        ],
+        "keep": false
+      },
+      "R3_typed_structure-R2_typed_content": {
+        "delta": -0.0015267364061060107,
+        "ci": [
+          -0.00817449965248685,
+          0.005720792048431538
+        ],
+        "keep": false
+      },
+      "R4_dynamics_goal-R3_typed_structure": {
+        "delta": 0.004495802497194723,
+        "ci": [
+          0.0031244012293062283,
+          0.005881055979126487
+        ],
+        "keep": false
+      }
+    }
+  }
+}

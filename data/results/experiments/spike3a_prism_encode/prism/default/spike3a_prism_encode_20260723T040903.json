@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "experiment": "experiments/spike3a_prism_encode",
+    "config": "default",
+    "dataset": "prism",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "min_seg_chars": 10,
+      "min_segs": 3,
+      "model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "timestamp": "20260723T040903",
+    "script": "spike3a_prism_encode.py",
+    "duration_seconds": null,
+    "git_commit": "6b45a09514750cd30c03b15ab4f1f42f58e65878",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "3e2747530dfa3f629db5c4a406ff7b890a52d9a36c89285f8007357c4c874fe5",
+    "argv": [
+      "spike3a_prism_encode.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_responses": 56032,
+    "n_sentences": 334717,
+    "n_conversations": 7984,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "mean_score": 67.72214091947458,
+    "sd_score": 27.464751215563293
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tool_anchored",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42
+    },
+    "timestamp": "20260723T135534",
+    "script": "tool_anchored.py",
+    "duration_seconds": null,
+    "git_commit": "6ef895ba5a57f20c9646f80a067dd9682fab3add",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "05ffd5b725b5d8f9109c71dca2342c5471901f04aab686ada9979f67252072bb",
+    "argv": [
+      "tool_anchored.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "toolbench",
+    "n_test_failures": 498,
+    "n_services": 3181,
+    "arms": {
+      "A_flat": {
+        "accuracy_auc": 0.7882825264926941,
+        "base_recall": 0.7349397590361446,
+        "n16_recall": 0.3674698795180723,
+        "manipulability": 0.5
+      },
+      "B_skeleton": {
+        "accuracy_auc": 0.7064484488222875,
+        "base_recall": 0.357429718875502,
+        "n16_recall": 0.357429718875502,
+        "manipulability": 0.0
+      },
+      "C_tethered": {
+        "accuracy_auc": 0.7877401718977742,
+        "base_recall": 0.7590361445783133,
+        "n16_recall": 0.3815261044176707,
+        "manipulability": 0.4973544973544973
+      }
+    }
+  }
+}

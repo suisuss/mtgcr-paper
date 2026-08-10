@@ -1,0 +1,12 @@
+{
+ "dataset": "abcd",
+ "n": 6399,
+ "base_rate": 0.13361462728551335,
+ "base_purity": 0.8663853727144867,
+ "n_unique_skeletons": 668,
+ "n_shared_groups": 118,
+ "coverage_in_shared": 0.8848257540240663,
+ "outcome_purity_shared": 0.9395973154362416,
+ "determinism_gap": 0.07321194272175491,
+ "ambiguous_fraction_of_shared": 0.837160014129283
+}

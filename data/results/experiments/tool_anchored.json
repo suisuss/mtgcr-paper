@@ -1,0 +1,25 @@
+{
+ "dataset": "toolbench",
+ "n_test_failures": 498,
+ "n_services": 3181,
+ "arms": {
+  "A_flat": {
+   "accuracy_auc": 0.7882825264926941,
+   "base_recall": 0.7349397590361446,
+   "n16_recall": 0.3674698795180723,
+   "manipulability": 0.5
+  },
+  "B_skeleton": {
+   "accuracy_auc": 0.7064484488222875,
+   "base_recall": 0.357429718875502,
+   "n16_recall": 0.357429718875502,
+   "manipulability": 0.0
+  },
+  "C_tethered": {
+   "accuracy_auc": 0.7877401718977742,
+   "base_recall": 0.7590361445783133,
+   "n16_recall": 0.3815261044176707,
+   "manipulability": 0.4973544973544973
+  }
+ }
+}

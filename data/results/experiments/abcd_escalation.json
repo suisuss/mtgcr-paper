@@ -1,0 +1,263 @@
+{
+ "n_conversations": 10042,
+ "conv_with_manager_notification": 83,
+ "conv_with_other_team_notification": 486,
+ "manager_notifications_in_labeled_subset": 81,
+ "utterance_pattern_hits": 357,
+ "conv_with_utterance_hit": 174,
+ "subflow_name_matches": [],
+ "viability_bar": 300,
+ "viable": false,
+ "spot_check_sample": [
+  {
+   "conv": "3492",
+   "speaker": "agent",
+   "text": "I've notified the manager and recorded your phone number, so you can expect a call soon."
+  },
+  {
+   "conv": "4279",
+   "speaker": "agent",
+   "text": "If you would like I can notify a manager so that they can look into your account and call you to try to resolve the issue."
+  },
+  {
+   "conv": "9573",
+   "speaker": "agent",
+   "text": "I truly apologize, there's nothing more that I can do on my side, but I'll be happy to escalate your concerns to a manager and have them contact you ASAP."
+  },
+  {
+   "conv": "9573",
+   "speaker": "agent",
+   "text": "I'll have a manager reach out to you as quickly as possible, Sanya."
+  },
+  {
+   "conv": "10366",
+   "speaker": "agent",
+   "text": "I'm very sorry. I could have a manager call you to discuss other options if you'd like."
+  },
+  {
+   "conv": "7850",
+   "speaker": "agent",
+   "text": "I can alert my manager to your displeasure, if you'd like."
+  },
+  {
+   "conv": "4929",
+   "speaker": "customer",
+   "text": "Nothing at all? Can I escalate this to a manager?"
+  },
+  {
+   "conv": "1631",
+   "speaker": "customer",
+   "text": "Can you get me a manager please. I really need this resolved"
+  },
+  {
+   "conv": "3111",
+   "speaker": "agent",
+   "text": "I will escalate to the purchasing team"
+  },
+  {
+   "conv": "6385",
+   "speaker": "agent",
+   "text": "Ok, the manager will call you and tell you if you can get an extension"
+  },
+  {
+   "conv": "2164",
+   "speaker": "customer",
+   "text": "can i speak to a manager if possible?"
+  },
+  {
+   "conv": "1953",
+   "speaker": "customer",
+   "text": "why can't you just transfer me now??"
+  },
+  {
+   "conv": "7125",
+   "speaker": "agent",
+   "text": "No, my supervisor is unavailable."
+  },
+  {
+   "conv": "6001",
+   "speaker": "agent",
+   "text": "however i can have a manager call you"
+  },
+  {
+   "conv": "6592",
+   "speaker": "customer",
+   "text": "Please let me talk to your manager"
+  },
+  {
+   "conv": "6592",
+   "speaker": "agent",
+   "text": "I understand, but so far I can help you, talk to the manager and tell him what happened"
+  },
+  {
+   "conv": "590",
+   "speaker": "customer",
+   "text": "Can i talk to your manager?"
+  },
+  {
+   "conv": "7919",
+   "speaker": "customer",
+   "text": "But I really need it. I'm in a tight spot. Is it possible to speak to the manager?"
+  },
+  {
+   "conv": "10414",
+   "speaker": "agent",
+   "text": "I'm sorry I can't do that. Would you like my manager to call you so you can discuss it with them?"
+  },
+  {
+   "conv": "7841",
+   "speaker": "customer",
+   "text": "You know, I think it's not my mistake that I was charged twice. I'd like to talk to the manager."
+  },
+  {
+   "conv": "4745",
+   "speaker": "agent",
+   "text": "Yes. What number would you like the manager to call?"
+  },
+  {
+   "conv": "4141",
+   "speaker": "agent",
+   "text": "A manager will call you soon."
+  },
+  {
+   "conv": "2698",
+   "speaker": "agent",
+   "text": "Unfortunately, we are unable to offer you an extension due to your membership level and how far you are behind in payment. However, I will escalate this to my m"
+  },
+  {
+   "conv": "2698",
+   "speaker": "agent",
+   "text": "Yes, I will put in some good words for you. I have notified my manager and they will contact you shortly."
+  },
+  {
+   "conv": "4228",
+   "speaker": "agent",
+   "text": "Is there anything else I might be able to do before I transfer you to that chat?"
+  },
+  {
+   "conv": "9979",
+   "speaker": "agent",
+   "text": "I can have a manager contact you back later."
+  },
+  {
+   "conv": "9704",
+   "speaker": "customer",
+   "text": "Yes, please have your supervisor contact me."
+  },
+  {
+   "conv": "9901",
+   "speaker": "agent",
+   "text": "I personally can't process an issue like this so I'll have to put you in touch with a manager."
+  },
+  {
+   "conv": "5758",
+   "speaker": "agent",
+   "text": "I will escalate this to a manager, and they will be in touch with you shortly to address any additional questions you have."
+  },
+  {
+   "conv": "8170",
+   "speaker": "agent",
+   "text": "The manager will call you back later. Sorry I could not help. Anything else?"
+  },
+  {
+   "conv": "5777",
+   "speaker": "customer",
+   "text": "let me speak to your manager"
+  },
+  {
+   "conv": "8423",
+   "speaker": "agent",
+   "text": "I can't connect to a manager at the moment. I am able to offer you a discount via promo code."
+  },
+  {
+   "conv": "290",
+   "speaker": "agent",
+   "text": "Please email  mailto:escalation@acmecorp.com"
+  },
+  {
+   "conv": "5113",
+   "speaker": "agent",
+   "text": "Would you like to escalate the issue to our management team?"
+  },
+  {
+   "conv": "5113",
+   "speaker": "agent",
+   "text": "All set! A manager will reach out to you via phone call shortly."
+  },
+  {
+   "conv": "5681",
+   "speaker": "customer",
+   "text": "i would like to speak with a manager"
+  },
+  {
+   "conv": "474",
+   "speaker": "agent",
+   "text": "I will notify team with \"manager\""
+  },
+  {
+   "conv": "4572",
+   "speaker": "customer",
+   "text": "Thats ridiculous. Every business has supervisors. I'll be looking to see who I can contact in person. Thanks for all your help. Have a great day"
+  },
+  {
+   "conv": "10328",
+   "speaker": "agent",
+   "text": "Thank you. My manager should be calling you before the day is over."
+  },
+  {
+   "conv": "8250",
+   "speaker": "agent",
+   "text": "All I can do is get a manager to call you"
+  },
+  {
+   "conv": "2758",
+   "speaker": "agent",
+   "text": "Im escalating to management right now."
+  },
+  {
+   "conv": "8364",
+   "speaker": "agent",
+   "text": "However if you wish, you can speak to one of our managers."
+  },
+  {
+   "conv": "3908",
+   "speaker": "customer",
+   "text": "Can I speak to a manager to see if they can do anything?"
+  },
+  {
+   "conv": "1396",
+   "speaker": "customer",
+   "text": "If you can not assure me that going forward this won't happen I suggest you get your manager please"
+  },
+  {
+   "conv": "9745",
+   "speaker": "customer",
+   "text": "Maybe I could speak to the manager?"
+  },
+  {
+   "conv": "1531",
+   "speaker": "agent",
+   "text": "The manager will be calling you later to discuss an extension."
+  },
+  {
+   "conv": "7598",
+   "speaker": "agent",
+   "text": "Great, I have forwarded it to the manager and he will contact you as soon as possible."
+  },
+  {
+   "conv": "3360",
+   "speaker": "customer",
+   "text": "I would like to speak to a manager. This is ridiiculous."
+  },
+  {
+   "conv": "2509",
+   "speaker": "agent",
+   "text": "Ok, please wait and the manager will be with you shortly. Have a great day."
+  },
+  {
+   "conv": "7930",
+   "speaker": "customer",
+   "text": "can I talk to a manager?"
+  }
+ ]
+}

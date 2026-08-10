@@ -1,0 +1,126 @@
+{
+  "_provenance": {
+    "experiment": "experiments/ds_experiments_swe",
+    "config": "default",
+    "dataset": "swe",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "n_boot": 1000
+    },
+    "timestamp": "20260723T113718",
+    "script": "ds_experiments.py",
+    "duration_seconds": null,
+    "git_commit": "329a0a7ab4676f2dcb89cb1b1603d547b9b340fd",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "9421786b01a8bf12731e31ca45100d22d9d8ae2af20382bddbf55daa3ba97d5a",
+    "argv": [
+      "ds_experiments.py",
+      "swe"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "swe",
+    "n": 11983,
+    "failure_rate": 0.846198781607277,
+    "head": {
+      "auc_by_tau": [
+        0.5045008352519152,
+        0.5082677066203182,
+        0.5191124344090671,
+        0.5220482015398291
+      ],
+      "overall_auc": 0.5133630947994731,
+      "n_samples": 302690
+    },
+    "baselines": {
+      "goal_dist": [
+        0.5654865153853876,
+        0.6224469313068755,
+        0.664436925885797,
+        0.6844503699005697
+      ],
+      "step_count": [
+        0.6549739948224671,
+        0.7086141470048384,
+        0.7114965907951554,
+        0.7122428096924482
+      ],
+      "err_share": [
+        0.5680714433753838,
+        0.5340428785451893,
+        0.5254954266907068,
+        0.5251116171094441
+      ]
+    },
+    "endpoints": {
+      "E1_final_turn": {
+        "auc": 0.42196369652857824,
+        "p": 1.332566422581653e-26,
+        "n": 11983,
+        "fdr_pass": true,
+        "no_error_final": {
+          "auc": 0.42601393818319827,
+          "n": 8985
+        },
+        "error_final": {
+          "auc": 0.5325393413743984,
+          "n": 2998
+        }
+      },
+      "E3_final_typed": {
+        "auc": 0.5452877030311397,
+        "p": 5.823105709678931e-10,
+        "n": 11983,
+        "fdr_pass": true,
+        "no_error_final": {
+          "auc": 0.5547140837375351,
+          "n": 8985
+        },
+        "error_final": {
+          "auc": 0.5851695450982376,
+          "n": 2998
+        }
+      }
+    },
+    "ladder": {
+      "oof_auc": {
+        "R1_content_length": 0.5944213993777832,
+        "R2_typed_content": 0.5815274972950586,
+        "R3_typed_structure": 0.5720910240892294,
+        "R4_dynamics_goal": 0.5796684988564866
+      },
+      "rungs": {
+        "R2_typed_content-R1_content_length": {
+          "delta": -0.012893902082724562,
+          "ci": [
+            -0.08303126093656352,
+            0.053236720579019285
+          ],
+          "keep": false
+        },
+        "R3_typed_structure-R2_typed_content": {
+          "delta": -0.009436473205829188,
+          "ci": [
+            -0.05766905833990234,
+            0.04316186007669891
+          ],
+          "keep": false
+        },
+        "R4_dynamics_goal-R3_typed_structure": {
+          "delta": 0.007577474767257231,
+          "ci": [
+            -0.0022783640040885426,
+            0.01760070617737118
+          ],
+          "keep": false
+        }
+      }
+    },
+    "assistant_share_auc": 0.5
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "n_responses": 56032,
+ "n_conversations": 7984,
+ "oof_spearman": {
+  "R1_content_length": 0.19046146899733782,
+  "R3_plus_drift": 0.18753089615166466,
+  "R4_plus_surprise": 0.18834705068665755
+ },
+ "ladder": {
+  "R3_plus_drift-R1_content_length": {
+   "delta": -0.002930572845673163,
+   "ci": [
+    -0.0066123322208513705,
+    0.000823371050467749
+   ],
+   "keep": false
+  },
+  "R4_plus_surprise-R3_plus_drift": {
+   "delta": 0.0008161545349928967,
+   "ci": [
+    0.00018773197134465332,
+    0.001503163967288698
+   ],
+   "keep": false
+  }
+ },
+ "median_n_sentences": 5.0
+}

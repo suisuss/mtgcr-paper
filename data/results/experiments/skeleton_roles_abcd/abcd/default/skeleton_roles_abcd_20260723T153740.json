@@ -1,0 +1,60 @@
+{
+  "_provenance": {
+    "experiment": "experiments/skeleton_roles_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42
+    },
+    "timestamp": "20260723T153740",
+    "script": "skeleton_roles_abcd.py",
+    "duration_seconds": null,
+    "git_commit": "592c8d6b2ecec206198050e3959dcc41945a0689",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "e075230501b065b279b90d0326f5ab39e901cf9ad7efaba93ca015bda5336a2d",
+    "argv": [
+      "skeleton_roles_abcd.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n_test_failures": 150,
+    "arms": {
+      "flat": {
+        "accuracy_auc": 0.7685665943613716,
+        "base_recall": 0.3333333333333333,
+        "n16_recall": 0.06666666666666667,
+        "manipulability": 0.8
+      },
+      "skeleton": {
+        "accuracy_auc": 0.6433340614723124,
+        "base_recall": 0.31333333333333335,
+        "n16_recall": 0.31333333333333335,
+        "manipulability": 0.0
+      },
+      "drop_agent": {
+        "accuracy_auc": 0.7720842588778072,
+        "base_recall": 0.23333333333333334,
+        "n16_recall": 0.23333333333333334,
+        "manipulability": 0.0
+      },
+      "drop_agent_skel": {
+        "accuracy_auc": 0.7741480274998329,
+        "base_recall": 0.24,
+        "n16_recall": 0.24,
+        "manipulability": 0.0
+      },
+      "typicality": {
+        "accuracy_auc": 0.7731245769824775,
+        "base_recall": 0.24666666666666667,
+        "n16_recall": 0.24666666666666667,
+        "manipulability": 0.0
+      }
+    }
+  }
+}

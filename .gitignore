@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editor / tool directories
+.obsidian/
+.idea/
+.vscode/
+
+# All pipeline run state (compiled spec, stage state, logs)
+.reproduce/
+
+# Data: raw corpora, embedding caches, and experiment caches are
+# regenerated or downloaded; only the canonical result artifacts are
+# versioned.
+data/*
+!data/results/
+data/results/**
+!data/results/**/
+!data/results/**/*.json
+
+# The built PDF (paper/paper.pdf) IS tracked - the rendered paper ships with
+# the repo; `./run.sh` regenerates it in place.
+# Regenerated PNG figures are not tracked (the SVGs beside them are the source).
+paper/figures/*.png
+
+# Local git worktrees (recreated per machine)
+.worktrees/

@@ -1,0 +1,30 @@
+{
+  "_provenance": {
+    "experiment": "experiments/spokenwoz_preprocess",
+    "config": "default",
+    "dataset": "spokenwoz",
+    "variant": "none",
+    "n_samples": null,
+    "params": {},
+    "timestamp": "20260723T114547",
+    "script": "spokenwoz_preprocess.py",
+    "duration_seconds": null,
+    "git_commit": "ddf8f10f3958f54c889bad6ff161a0d8b4fe44c5",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "8aeb877c41f5c255e8717348c607223678e0c0e14fe3edf31220113f290761cc",
+    "argv": [
+      "spokenwoz_preprocess.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_dialogues": 5700,
+    "n_labeled": 5697,
+    "n_no_goal": 0,
+    "n_unlabeled_goal": 3,
+    "failure_rate": 0.6863261365631034,
+    "avg_turns": 35.60526315789474
+  }
+}

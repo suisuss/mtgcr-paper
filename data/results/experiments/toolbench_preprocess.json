@@ -1,0 +1,11 @@
+{
+ "n_conversations": 12598,
+ "failure_rate": 0.20169868233052865,
+ "groups": {
+  "G1_answer": 3389,
+  "G2_answer": 4664,
+  "G3_answer": 4545
+ },
+ "with_goal_text": 12598,
+ "avg_turns": 9.203444991268455
+}

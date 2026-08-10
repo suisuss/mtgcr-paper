@@ -1,0 +1,202 @@
+{
+  "_provenance": {
+    "experiment": "experiments/shape_reward_mwoz",
+    "config": "default",
+    "dataset": "mwoz",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "ns": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "trials": 2000
+    },
+    "timestamp": "20260723T124735",
+    "script": "shape_reward.py",
+    "duration_seconds": null,
+    "git_commit": "21f5c06f4063bba6fbe937aa721a376e8c524c01",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "567e8de7f27ce6ae9a593ef52d09de27b1ab0e55dc2caad2cfb14f444ee73f39",
+    "argv": [
+      "shape_reward.py",
+      "mwoz"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "corpus": "mwoz",
+    "n": 1000,
+    "head_accuracy_oof_spearman": {
+      "level": 0.09900192028001042,
+      "trend": 0.14851534034066785,
+      "recovery": 0.18253543022243576
+    },
+    "channel_strength": {
+      "trend_system_only": 0.14851534034066785,
+      "trend_user_only": 0.3117734857323966,
+      "trend_both_roles": 0.3035244255008571,
+      "recovery_system_only": 0.18253543022243576,
+      "recovery_both_roles": 0.32037037059825924
+    },
+    "judge_mean_grand": 3.0281351046125056,
+    "judge_final_grand": 3.2065166666666665,
+    "probe": {
+      "level": {
+        "by_n": {
+          "1": {
+            "judge_mean": 3.0245704107255,
+            "judge_final": 3.1933249999999997,
+            "reward_own": 3.028887286822999
+          },
+          "2": {
+            "judge_mean": 3.038152148595048,
+            "judge_final": 3.2114499999999997,
+            "reward_own": 3.0414515165248495
+          },
+          "4": {
+            "judge_mean": 3.0348453253737615,
+            "judge_final": 3.2070166666666666,
+            "reward_own": 3.050465249443062
+          },
+          "8": {
+            "judge_mean": 3.0448701561551195,
+            "judge_final": 3.2130249999999996,
+            "reward_own": 3.059865629254771
+          },
+          "16": {
+            "judge_mean": 3.051865860116191,
+            "judge_final": 3.2268499999999998,
+            "reward_own": 3.068817997711327
+          },
+          "32": {
+            "judge_mean": 3.057586459003959,
+            "judge_final": 3.223416666666667,
+            "reward_own": 3.0761701348762447
+          }
+        },
+        "delta_judge_mean": 0.03301604827845894,
+        "delta_judge_final": 0.030091666666667294,
+        "delta_reward_own": 0.047282848053245896
+      },
+      "trend": {
+        "by_n": {
+          "1": {
+            "judge_mean": 3.0245704107255,
+            "judge_final": 3.1933249999999997,
+            "reward_own": -0.03579162727664082
+          },
+          "2": {
+            "judge_mean": 3.0310954233663243,
+            "judge_final": 3.2043250000000003,
+            "reward_own": -0.01928685433727096
+          },
+          "4": {
+            "judge_mean": 3.022834362524819,
+            "judge_final": 3.1630166666666666,
+            "reward_own": -0.004701053722115626
+          },
+          "8": {
+            "judge_mean": 3.016564439913418,
+            "judge_final": 3.135291666666667,
+            "reward_own": 0.00957264139664525
+          },
+          "16": {
+            "judge_mean": 3.0271791875746104,
+            "judge_final": 3.1355166666666663,
+            "reward_own": 0.024363919258041617
+          },
+          "32": {
+            "judge_mean": 3.019191581046519,
+            "judge_final": 3.0791083333333336,
+            "reward_own": 0.03836158345573698
+          }
+        },
+        "delta_judge_mean": -0.005378829678980956,
+        "delta_judge_final": -0.11421666666666619,
+        "delta_reward_own": 0.0741532107323778
+      },
+      "recovery": {
+        "by_n": {
+          "1": {
+            "judge_mean": 3.0245704107255,
+            "judge_final": 3.1933249999999997,
+            "reward_own": 0.08789491101501941
+          },
+          "2": {
+            "judge_mean": 3.0331904413262207,
+            "judge_final": 3.2454583333333336,
+            "reward_own": 0.10596540123975333
+          },
+          "4": {
+            "judge_mean": 3.0269739183550093,
+            "judge_final": 3.2542166666666668,
+            "reward_own": 0.11945293111310513
+          },
+          "8": {
+            "judge_mean": 3.029818278447515,
+            "judge_final": 3.2564833333333336,
+            "reward_own": 0.13149696015031298
+          },
+          "16": {
+            "judge_mean": 3.021491022577534,
+            "judge_final": 3.267341666666667,
+            "reward_own": 0.14623935951111208
+          },
+          "32": {
+            "judge_mean": 3.0163010535742787,
+            "judge_final": 3.29575,
+            "reward_own": 0.156963468446268
+          }
+        },
+        "delta_judge_mean": -0.008269357151221346,
+        "delta_judge_final": 0.10242500000000021,
+        "delta_reward_own": 0.06906855743124858
+      },
+      "combo": {
+        "by_n": {
+          "1": {
+            "judge_mean": 3.0245704107255,
+            "judge_final": 3.1933249999999997,
+            "reward_own": 0.03373624893765873
+          },
+          "2": {
+            "judge_mean": 3.038036287505824,
+            "judge_final": 3.2316583333333337,
+            "reward_own": 0.9025744563935778
+          },
+          "4": {
+            "judge_mean": 3.033739306593179,
+            "judge_final": 3.229191666666667,
+            "reward_own": 1.6062369217578079
+          },
+          "8": {
+            "judge_mean": 3.0418706899529324,
+            "judge_final": 3.2443166666666667,
+            "reward_own": 2.227663463550818
+          },
+          "16": {
+            "judge_mean": 3.048017755880748,
+            "judge_final": 3.263008333333333,
+            "reward_own": 2.8022630748871444
+          },
+          "32": {
+            "judge_mean": 3.0289123959459454,
+            "judge_final": 3.218608333333333,
+            "reward_own": 3.272071548143761
+          }
+        },
+        "delta_judge_mean": 0.004341985220445377,
+        "delta_judge_final": 0.025283333333333324,
+        "delta_reward_own": 3.2383352992061023
+      }
+    }
+  }
+}

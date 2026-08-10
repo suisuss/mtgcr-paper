@@ -1,0 +1,11 @@
+# Core tier: everything needed to run analysis/tables/figures stages and
+# the `./run.sh check` validation path. Sufficient on its own once
+# data/embeddings/ (or whatever your heavy stages produce) is already
+# populated - output-guarded stages skip themselves and never import
+# the heavy tier below.
+numpy==2.2.2
+scipy==1.16.3
+scikit-learn==1.8.0
+PyYAML==6.0.2
+tqdm==4.67.1
+matplotlib==3.10.8
