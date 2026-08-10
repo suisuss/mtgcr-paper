@@ -1,0 +1,147 @@
+{
+  "_provenance": {
+    "experiment": "experiments/spike1_zone_sgd",
+    "config": "default",
+    "dataset": "sgd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "k": 64,
+      "seed": 42,
+      "n_boot": 1000
+    },
+    "timestamp": "20260723T035750",
+    "script": "spike1_zone_clustering.py",
+    "duration_seconds": null,
+    "git_commit": "a2927fb96a3a475693146073c55850a044559b63",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "0bf95a4d156f265355abb79d89072d2c362bc8d5d7509989ca9aded0da4c2215",
+    "argv": [
+      "spike1_zone_clustering.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "corpus": "sgd",
+    "k": 64,
+    "seed": 42,
+    "n_conv": 1000,
+    "n_bad": 39,
+    "n_good": 270,
+    "base_rate": 0.10554605423894454,
+    "top_clusters": [
+      {
+        "cluster": 48,
+        "n_band_turns": 156,
+        "share": 0.25,
+        "lift": 2.368634259259259,
+        "jeffreys": [
+          1.772389516223967,
+          3.051831143443921
+        ],
+        "boot_ci": [
+          0.9158497182189476,
+          4.124003194162164
+        ]
+      },
+      {
+        "cluster": 24,
+        "n_band_turns": 134,
+        "share": 0.2462686567164179,
+        "lift": 2.3332815091210612,
+        "jeffreys": [
+          1.6984531496079487,
+          3.070665814886425
+        ],
+        "boot_ci": [
+          0.5582591613061856,
+          4.609260311067577
+        ]
+      },
+      {
+        "cluster": 43,
+        "n_band_turns": 38,
+        "share": 0.21052631578947367,
+        "lift": 1.9946393762183234,
+        "jeffreys": [
+          0.9938763068263987,
+          3.3949012312276867
+        ],
+        "boot_ci": [
+          0.9202418104137532,
+          3.336611597504987
+        ]
+      },
+      {
+        "cluster": 8,
+        "n_band_turns": 44,
+        "share": 0.20454545454545456,
+        "lift": 1.9379734848484849,
+        "jeffreys": [
+          1.0073506851765437,
+          3.222843274506971
+        ],
+        "boot_ci": [
+          0.6194106926003479,
+          3.758010251765231
+        ]
+      },
+      {
+        "cluster": 38,
+        "n_band_turns": 291,
+        "share": 0.2027491408934708,
+        "lift": 1.9209542446226293,
+        "jeffreys": [
+          1.5124218323804726,
+          2.3851794477759722
+        ],
+        "boot_ci": [
+          1.2243912317841348,
+          2.719869874600966
+        ]
+      }
+    ],
+    "n_highrisk": 0,
+    "max_lift": 2.368634259259259,
+    "max_lift_boot_ci": [
+      0.9158497182189476,
+      4.124003194162164
+    ],
+    "endpoint_geography": {
+      "tv": 0.32450142450142455,
+      "perm_mean": 0.09842051282051281,
+      "perm_p95": 0.16326210826210827,
+      "perm_pvalue": 0.001
+    },
+    "lead_time": {
+      "n_entering": 0,
+      "median_first_tau": null,
+      "early_share": null
+    },
+    "auc_head_by_tau": [
+      0.5209622321492559,
+      0.5414934164934164,
+      0.5704299596626329,
+      0.6299376299376299
+    ],
+    "auc_dwell_by_tau": [
+      0.522140735609119,
+      0.5099564708939709,
+      0.5168167858452511,
+      0.5214776074151075
+    ],
+    "n_samples": 4093,
+    "sensitivities": {
+      "k16": {
+        "max_lift": 1.554645396170164,
+        "n_highrisk": 0
+      },
+      "seed123": {
+        "max_lift": 3.6845421810699586,
+        "n_highrisk": 0
+      }
+    }
+  }
+}

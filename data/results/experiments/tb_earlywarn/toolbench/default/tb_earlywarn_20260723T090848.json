@@ -1,0 +1,91 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tb_earlywarn",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "k": 64,
+      "seed": 42,
+      "n_boot": 1000
+    },
+    "timestamp": "20260723T090848",
+    "script": "tb_earlywarn.py",
+    "duration_seconds": null,
+    "git_commit": "db757c2b608069b43cba9b30623ddf3099fdea0b",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "76393231f902d23160935c7c54daa3461a406f668d4b107c31667b083b8110df",
+    "argv": [
+      "tb_earlywarn.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n": 12598,
+    "failure_rate": 0.20169868233052865,
+    "k": 64,
+    "base_rate": 0.22405450860321705,
+    "max_lift": 2.7484421966772414,
+    "max_lift_boot_ci": [
+      2.489826930682017,
+      3.0027019800241432
+    ],
+    "n_highrisk": 5,
+    "endpoint_geography": {
+      "tv": 0.5461807093506408,
+      "perm_p95": 0.07072461859177581,
+      "perm_pvalue": 0.0
+    },
+    "lead_time": {
+      "n_entering": 702,
+      "median_first_tau": 0.0,
+      "early_share": 0.8618233618233618
+    },
+    "auc_by_tau": {
+      "head": [
+        0.7052208248888574,
+        0.7986692902923213,
+        0.812548456541773,
+        0.8335810015932691
+      ],
+      "dwell": [
+        0.579032624439862,
+        0.5811406495778331,
+        0.5916963178624773,
+        0.5984664161950332
+      ],
+      "err_share": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "goal_dist": [
+        0.4977529581478498,
+        0.29901921580862195,
+        0.3186920993295368,
+        0.36366588065097216
+      ],
+      "step_count": [
+        0.5,
+        0.49164507271133573,
+        0.5362411403968058,
+        0.4957072650919834
+      ]
+    },
+    "n_samples": 38843,
+    "sensitivities": {
+      "k16": {
+        "max_lift": 2.344986517174542,
+        "n_highrisk": 2
+      },
+      "seed123": {
+        "max_lift": 2.811378198596399,
+        "n_highrisk": 5
+      }
+    }
+  }
+}

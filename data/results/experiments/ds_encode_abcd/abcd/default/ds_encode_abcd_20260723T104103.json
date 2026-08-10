@@ -1,0 +1,32 @@
+{
+  "_provenance": {
+    "experiment": "experiments/ds_encode_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "timestamp": "20260723T104103",
+    "script": "ds_encode.py",
+    "duration_seconds": null,
+    "git_commit": "d88c2bbeb315e4d73af44ad0da0833e46e440c9c",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "1b2a11a1775830c29eff7d778ae78eb8660296f73c827ddc02cc5bc7cacfaa4e",
+    "argv": [
+      "ds_encode.py",
+      "abcd"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n_conversations": 6399,
+    "n_turns_total": 154764,
+    "failure_rate": 0.13361462728551335,
+    "model": "sentence-transformers/all-MiniLM-L6-v2"
+  }
+}

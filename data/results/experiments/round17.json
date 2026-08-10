@@ -1,0 +1,131 @@
+{
+ "seed": 42,
+ "direction_a_leadtime": {
+  "toolbench": {
+   "geometry": {
+    "n_fail": 359,
+    "recall_anypoint": 0.493,
+    "recall_terminal_only": 0.448,
+    "median_lead": 2.0,
+    "early_recall_ge2": 0.37,
+    "early_recall_ge1": 0.437,
+    "fpr_conv": 0.151
+   },
+   "content_baseline": {
+    "n_fail": 359,
+    "recall_anypoint": 0.462,
+    "recall_terminal_only": 0.315,
+    "median_lead": 2.0,
+    "early_recall_ge2": 0.287,
+    "early_recall_ge1": 0.376,
+    "fpr_conv": 0.136
+   },
+   "two_mode_gain_recall": 0.045,
+   "keep_running_mode": true
+  },
+  "abcd": {
+   "geometry": {
+    "n_fail": 148,
+    "recall_anypoint": 0.453,
+    "recall_terminal_only": 0.189,
+    "median_lead": 6.0,
+    "early_recall_ge2": 0.399,
+    "early_recall_ge1": 0.432,
+    "fpr_conv": 0.122
+   },
+   "content_baseline": {
+    "n_fail": 148,
+    "recall_anypoint": 0.351,
+    "recall_terminal_only": 0.0,
+    "median_lead": 6.0,
+    "early_recall_ge2": 0.345,
+    "early_recall_ge1": 0.351,
+    "fpr_conv": 0.107
+   },
+   "two_mode_gain_recall": 0.264,
+   "keep_running_mode": true
+  }
+ },
+ "direction_b_stratified": {
+  "toolbench": {
+   "early": {
+    "degree0": {
+     "auc": 0.7469,
+     "ci95": [
+      0.7233,
+      0.7713
+     ]
+    },
+    "degree1": {
+     "auc": 0.7479,
+     "ci95": [
+      0.7243,
+      0.7721
+     ]
+    },
+    "degree1_shuffled": {
+     "auc": 0.7473,
+     "ci95": [
+      0.7226,
+      0.7712
+     ]
+    },
+    "degree1_minus_degree0": 0.001,
+    "degree1_minus_shuffle": 0.0006
+   },
+   "late": {
+    "degree0": {
+     "auc": 0.803,
+     "ci95": [
+      0.7792,
+      0.8259
+     ]
+    },
+    "degree1": {
+     "auc": 0.8133,
+     "ci95": [
+      0.7903,
+      0.8359
+     ]
+    },
+    "degree1_shuffled": {
+     "auc": 0.7939,
+     "ci95": [
+      0.7692,
+      0.8166
+     ]
+    },
+    "degree1_minus_degree0": 0.0103,
+    "degree1_minus_shuffle": 0.0194
+   },
+   "terminal": {
+    "degree0": {
+     "auc": 0.8365,
+     "ci95": [
+      0.8166,
+      0.8555
+     ]
+    },
+    "degree1": {
+     "auc": 0.848,
+     "ci95": [
+      0.8298,
+      0.8661
+     ]
+    },
+    "degree1_shuffled": {
+     "auc": 0.8253,
+     "ci95": [
+      0.8044,
+      0.8449
+     ]
+    },
+    "degree1_minus_degree0": 0.0115,
+    "degree1_minus_shuffle": 0.0227
+   }
+  }
+ },
+ "direction_c_terminal_is_degree0": true,
+ "b_running_needs_degree1": false,
+ "verdict": "TWO-MODE (two read-positions of ONE degree-0 head): early flag + terminal level read, same representation"
+}

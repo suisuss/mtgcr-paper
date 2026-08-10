@@ -1,0 +1,37 @@
+{
+  "_provenance": {
+    "experiment": "experiments/skeleton_determinism_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "min_group": 5
+    },
+    "timestamp": "20260723T141042",
+    "script": "skeleton_determinism.py",
+    "duration_seconds": null,
+    "git_commit": "95ff22d25ec4302e64f7b82333acd1c5a0c3c2fb",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "e9cb2cd8d3c631be8dbfd1135c4e7bea332fdfdffa4d77fecedf313896ac50e7",
+    "argv": [
+      "skeleton_determinism.py",
+      "abcd"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n": 6399,
+    "base_rate": 0.13361462728551335,
+    "base_purity": 0.8663853727144867,
+    "n_unique_skeletons": 668,
+    "n_shared_groups": 118,
+    "coverage_in_shared": 0.8848257540240663,
+    "outcome_purity_shared": 0.9395973154362416,
+    "determinism_gap": 0.07321194272175491,
+    "ambiguous_fraction_of_shared": 0.837160014129283
+  }
+}

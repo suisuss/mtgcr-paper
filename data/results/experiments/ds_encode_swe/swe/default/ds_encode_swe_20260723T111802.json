@@ -1,0 +1,32 @@
+{
+  "_provenance": {
+    "experiment": "experiments/ds_encode_swe",
+    "config": "default",
+    "dataset": "swe",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "timestamp": "20260723T111802",
+    "script": "ds_encode.py",
+    "duration_seconds": null,
+    "git_commit": "0e8d774473ed18b487149929b7b58f83e6d3b232",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "1b2a11a1775830c29eff7d778ae78eb8660296f73c827ddc02cc5bc7cacfaa4e",
+    "argv": [
+      "ds_encode.py",
+      "swe"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "swe",
+    "n_conversations": 11983,
+    "n_turns_total": 629346,
+    "failure_rate": 0.846198781607277,
+    "model": "sentence-transformers/all-MiniLM-L6-v2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+ "n_conversations": 10042,
+ "n_labeled": 6399,
+ "n_unmapped": 3643,
+ "failure_rate": 0.13361462728551335,
+ "mean_action_coverage": 0.8927436578632079,
+ "n_mapped_subflow_pairs": 64,
+ "avg_turns": 22.00587532364071
+}

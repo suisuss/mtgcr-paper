@@ -1,0 +1,82 @@
+{
+  "_provenance": {
+    "experiment": "experiments/spike2_endpoint_mwoz",
+    "config": "default",
+    "dataset": "mwoz",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "keywords": [
+        "thank",
+        "thanks",
+        "goodbye",
+        "bye",
+        "welcome",
+        "good day",
+        "great day",
+        "nice day",
+        "that's all",
+        "that is all",
+        "have a good",
+        "appreciate"
+      ]
+    },
+    "timestamp": "20260723T084735",
+    "script": "spike2_endpoint_descriptive.py",
+    "duration_seconds": null,
+    "git_commit": "db757c2b608069b43cba9b30623ddf3099fdea0b",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "f439510bff51c4168ce3ef78a64acb06b78d2bad678b93cb25321f790f76dc28",
+    "argv": [
+      "spike2_endpoint_descriptive.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "corpus": "mwoz",
+    "n": 1000,
+    "functionals": {
+      "F1_raw_final": {
+        "rho": -0.038512037172880695,
+        "p": 0.22368573935600966,
+        "fdr_pass": false
+      },
+      "F2_fitted_end": {
+        "rho": -0.0815899861420168,
+        "p": 0.009846341895543871,
+        "fdr_pass": true
+      },
+      "F3_closest_depth": {
+        "rho": -0.1048921984325563,
+        "p": 0.0008937415537643251,
+        "fdr_pass": true
+      },
+      "F4_closest_tau": {
+        "rho": -0.011788059484947865,
+        "p": 0.709656191232512,
+        "fdr_pass": false
+      },
+      "F5_initial_gap": {
+        "rho": -0.08750712230808448,
+        "p": 0.005621646337353203,
+        "fdr_pass": true
+      }
+    },
+    "ritual_share": 0.94,
+    "f1_partial_ritual_rho": -0.06115889939558542,
+    "f1_strip": {
+      "strip1": {
+        "rho": 0.06317169143180149,
+        "p": 0.045807722503902006,
+        "n": 1000
+      },
+      "strip2": {
+        "rho": 0.05290880869439576,
+        "p": 0.09498157072882957,
+        "n": 997
+      }
+    }
+  }
+}

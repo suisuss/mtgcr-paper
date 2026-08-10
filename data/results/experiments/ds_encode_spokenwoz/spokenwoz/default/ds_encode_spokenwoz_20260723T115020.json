@@ -1,0 +1,32 @@
+{
+  "_provenance": {
+    "experiment": "experiments/ds_encode_spokenwoz",
+    "config": "default",
+    "dataset": "spokenwoz",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "timestamp": "20260723T115020",
+    "script": "ds_encode.py",
+    "duration_seconds": null,
+    "git_commit": "39317ea61e36e9bf3bf17b8ab7feb7cf0fdd41f2",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "fc9526065830747c1522c7db684399ae0e2cfcb05a2cfd23f9abacf5d058ca25",
+    "argv": [
+      "ds_encode.py",
+      "spokenwoz"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "spokenwoz",
+    "n_conversations": 5697,
+    "n_turns_total": 202816,
+    "failure_rate": 0.33649289099526064,
+    "model": "sentence-transformers/all-MiniLM-L6-v2"
+  }
+}

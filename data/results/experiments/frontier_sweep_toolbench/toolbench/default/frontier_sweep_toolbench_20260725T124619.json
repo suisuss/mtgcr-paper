@@ -1,0 +1,358 @@
+{
+  "_provenance": {
+    "experiment": "experiments/frontier_sweep_toolbench",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "budgets": [
+        "1",
+        "4",
+        "16",
+        "64",
+        "256",
+        "exhaustive"
+      ]
+    },
+    "timestamp": "20260725T124619",
+    "script": "frontier_sweep.py",
+    "duration_seconds": null,
+    "git_commit": "7fa55fbda4e43b0329c8b395cfdc5a060797fc3a",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "cff0a6c49df039bc2ac0949d74ea53003457418748fdcd7066ed129b1abf4cc5",
+    "argv": [
+      "frontier_sweep.py",
+      "toolbench"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "toolbench",
+    "n_test_failures": 498,
+    "pool_size": 10343,
+    "acc_fixed_role": 0.7687705211396916,
+    "budgets": [
+      "1",
+      "4",
+      "16",
+      "64",
+      "256",
+      "exhaustive"
+    ],
+    "r0_percentiles": {
+      "50": 0.425179259390828,
+      "75": 0.6362089159962319,
+      "90": 0.7237501073851552
+    },
+    "r0_task": {
+      "50": 0.37470092782192843
+    },
+    "guard_res2s_n16": {
+      "got": -0.0969529085872576,
+      "published": -0.0969529085872576
+    },
+    "conservation_rank_corr": 0.8285714285714287,
+    "plane": {
+      "fixed_role": {
+        "independent_acc": 0.0,
+        "ceiling_manip": 0.0,
+        "flatness_span": 0.0,
+        "accuracy_auc": 0.7687705211396916
+      },
+      "res_2s": {
+        "independent_acc": 0.013263412331616431,
+        "ceiling_manip": 0.030470914127423896,
+        "flatness_span": 0.17451523545706374,
+        "accuracy_auc": 0.782033933471308
+      },
+      "res_1s@p50": {
+        "independent_acc": 0.008414691709589306,
+        "ceiling_manip": 0.02762430939226523,
+        "flatness_span": 0.14364640883977894,
+        "accuracy_auc": 0.7771852128492809
+      },
+      "res_1s@p75": {
+        "independent_acc": 0.0036064298274278705,
+        "ceiling_manip": 0.0,
+        "flatness_span": 0.16526610644257692,
+        "accuracy_auc": 0.7723769509671194
+      },
+      "res_1s@p90": {
+        "independent_acc": 0.0017181478196370836,
+        "ceiling_manip": -0.008474576271186546,
+        "flatness_span": 0.09604519774011294,
+        "accuracy_auc": 0.7704886689593287
+      },
+      "res_task_2s": {
+        "independent_acc": 0.0129449294306212,
+        "ceiling_manip": 0.013812154696132615,
+        "flatness_span": 0.1795580110497237,
+        "accuracy_auc": 0.7817154505703128
+      },
+      "res_task_1s@p50": {
+        "independent_acc": 0.010447795258028192,
+        "ceiling_manip": 0.008219178082191731,
+        "flatness_span": 0.14520547945205478,
+        "accuracy_auc": 0.7792183163977198
+      }
+    },
+    "arms": {
+      "fixed_role": {
+        "kind": "invariant",
+        "accuracy_auc": 0.7687705211396916,
+        "base_recall": 0.7048192771084337,
+        "independent_acc": 0.0,
+        "gcoef": null,
+        "curve": {
+          "1": {
+            "recall": 0.7048192771084337,
+            "manipulability": 0.0
+          },
+          "4": {
+            "recall": 0.7048192771084337,
+            "manipulability": 0.0
+          },
+          "16": {
+            "recall": 0.7048192771084337,
+            "manipulability": 0.0
+          },
+          "64": {
+            "recall": 0.7048192771084337,
+            "manipulability": 0.0
+          },
+          "256": {
+            "recall": 0.7048192771084337,
+            "manipulability": 0.0
+          },
+          "exhaustive": {
+            "recall": 0.7048192771084337,
+            "manipulability": 0.0
+          }
+        },
+        "ceiling_manip": 0.0,
+        "flatness_span": 0.0,
+        "independent_recall": 0.0
+      },
+      "res_2s": {
+        "kind": "joint",
+        "accuracy_auc": 0.782033933471308,
+        "base_recall": 0.7248995983935743,
+        "independent_acc": 0.013263412331616431,
+        "gcoef": null,
+        "curve": {
+          "1": {
+            "recall": 0.8293172690763052,
+            "manipulability": -0.14404432132963985
+          },
+          "4": {
+            "recall": 0.8152610441767069,
+            "manipulability": -0.12465373961218838
+          },
+          "16": {
+            "recall": 0.7951807228915663,
+            "manipulability": -0.0969529085872576
+          },
+          "64": {
+            "recall": 0.7690763052208835,
+            "manipulability": -0.06094182825484763
+          },
+          "256": {
+            "recall": 0.7469879518072289,
+            "manipulability": -0.03047091412742374
+          },
+          "exhaustive": {
+            "recall": 0.7028112449799196,
+            "manipulability": 0.030470914127423896
+          }
+        },
+        "ceiling_manip": 0.030470914127423896,
+        "flatness_span": 0.17451523545706374,
+        "independent_recall": 0.02208835341365467
+      },
+      "res_1s@p50": {
+        "kind": "stacked",
+        "accuracy_auc": 0.7771852128492809,
+        "base_recall": 0.7269076305220884,
+        "independent_acc": 0.008414691709589306,
+        "gcoef": 2.287338223687435,
+        "curve": {
+          "1": {
+            "recall": 0.8112449799196787,
+            "manipulability": -0.11602209944751372
+          },
+          "4": {
+            "recall": 0.7771084337349398,
+            "manipulability": -0.06906077348066292
+          },
+          "16": {
+            "recall": 0.7590361445783133,
+            "manipulability": -0.044198895027624245
+          },
+          "64": {
+            "recall": 0.7469879518072289,
+            "manipulability": -0.027624309392265078
+          },
+          "256": {
+            "recall": 0.7309236947791165,
+            "manipulability": -0.005524861878452954
+          },
+          "exhaustive": {
+            "recall": 0.7068273092369478,
+            "manipulability": 0.02762430939226523
+          }
+        },
+        "ceiling_manip": 0.02762430939226523,
+        "flatness_span": 0.14364640883977894,
+        "independent_recall": 0.02008032128514059
+      },
+      "res_1s@p75": {
+        "kind": "stacked",
+        "accuracy_auc": 0.7723769509671194,
+        "base_recall": 0.7168674698795181,
+        "independent_acc": 0.0036064298274278705,
+        "gcoef": 3.8472020665404427,
+        "curve": {
+          "1": {
+            "recall": 0.8353413654618473,
+            "manipulability": -0.16526610644257692
+          },
+          "4": {
+            "recall": 0.8092369477911646,
+            "manipulability": -0.1288515406162464
+          },
+          "16": {
+            "recall": 0.7911646586345381,
+            "manipulability": -0.10364145658263295
+          },
+          "64": {
+            "recall": 0.7710843373493976,
+            "manipulability": -0.07563025210084034
+          },
+          "256": {
+            "recall": 0.751004016064257,
+            "manipulability": -0.04761904761904759
+          },
+          "exhaustive": {
+            "recall": 0.7168674698795181,
+            "manipulability": 0.0
+          }
+        },
+        "ceiling_manip": 0.0,
+        "flatness_span": 0.16526610644257692,
+        "independent_recall": 0.0
+      },
+      "res_1s@p90": {
+        "kind": "stacked",
+        "accuracy_auc": 0.7704886689593287,
+        "base_recall": 0.7108433734939759,
+        "independent_acc": 0.0017181478196370836,
+        "gcoef": 3.20344356493885,
+        "curve": {
+          "1": {
+            "recall": 0.785140562248996,
+            "manipulability": -0.10451977401129948
+          },
+          "4": {
+            "recall": 0.7630522088353414,
+            "manipulability": -0.07344632768361596
+          },
+          "16": {
+            "recall": 0.748995983935743,
+            "manipulability": -0.05367231638418084
+          },
+          "64": {
+            "recall": 0.7449799196787149,
+            "manipulability": -0.04802259887005663
+          },
+          "256": {
+            "recall": 0.7289156626506024,
+            "manipulability": -0.025423728813559327
+          },
+          "exhaustive": {
+            "recall": 0.7168674698795181,
+            "manipulability": -0.008474576271186546
+          }
+        },
+        "ceiling_manip": -0.008474576271186546,
+        "flatness_span": 0.09604519774011294,
+        "independent_recall": -0.006024096385542244
+      },
+      "res_task_2s": {
+        "kind": "joint",
+        "accuracy_auc": 0.7817154505703128,
+        "base_recall": 0.7269076305220884,
+        "independent_acc": 0.0129449294306212,
+        "gcoef": null,
+        "curve": {
+          "1": {
+            "recall": 0.8473895582329317,
+            "manipulability": -0.16574585635359107
+          },
+          "4": {
+            "recall": 0.8232931726907631,
+            "manipulability": -0.1325966850828729
+          },
+          "16": {
+            "recall": 0.8032128514056225,
+            "manipulability": -0.10497237569060766
+          },
+          "64": {
+            "recall": 0.7831325301204819,
+            "manipulability": -0.07734806629834243
+          },
+          "256": {
+            "recall": 0.7751004016064257,
+            "manipulability": -0.06629834254143636
+          },
+          "exhaustive": {
+            "recall": 0.7168674698795181,
+            "manipulability": 0.013812154696132615
+          }
+        },
+        "ceiling_manip": 0.013812154696132615,
+        "flatness_span": 0.1795580110497237,
+        "independent_recall": 0.010040160642570295
+      },
+      "res_task_1s@p50": {
+        "kind": "stacked",
+        "accuracy_auc": 0.7792183163977198,
+        "base_recall": 0.7329317269076305,
+        "independent_acc": 0.010447795258028192,
+        "gcoef": 2.348237142911727,
+        "curve": {
+          "1": {
+            "recall": 0.8333333333333334,
+            "manipulability": -0.13698630136986306
+          },
+          "4": {
+            "recall": 0.8152610441767069,
+            "manipulability": -0.11232876712328771
+          },
+          "16": {
+            "recall": 0.7911646586345381,
+            "manipulability": -0.07945205479452047
+          },
+          "64": {
+            "recall": 0.7730923694779116,
+            "manipulability": -0.054794520547945126
+          },
+          "256": {
+            "recall": 0.7570281124497992,
+            "manipulability": -0.03287671232876708
+          },
+          "exhaustive": {
+            "recall": 0.7269076305220884,
+            "manipulability": 0.008219178082191731
+          }
+        },
+        "ceiling_manip": 0.008219178082191731,
+        "flatness_span": 0.14520547945205478,
+        "independent_recall": 0.0060240963855421326
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_provenance": {
+    "experiment": "experiments/policy_choice_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "n": 16
+    },
+    "timestamp": "20260723T141047",
+    "script": "policy_choice_abcd.py",
+    "duration_seconds": null,
+    "git_commit": "95ff22d25ec4302e64f7b82333acd1c5a0c3c2fb",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "43bcec92d99a32ea6ce091a295d6e3332fdf9898405c65dd22eed774889b44b1",
+    "argv": [
+      "policy_choice_abcd.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n_test_failures": 150,
+    "threshold": 0.889742589886453,
+    "same_subflow": {
+      "evaluable": 150,
+      "fooled": 144,
+      "fooled_and_succeeded": 144,
+      "slack_fooled_not_succeeded": 0,
+      "fooled_rate": 0.96,
+      "slack_rate": 0.0
+    },
+    "any_subflow": {
+      "evaluable": 150,
+      "fooled": 150,
+      "fooled_and_succeeded": 27,
+      "slack_fooled_not_succeeded": 123,
+      "fooled_rate": 1.0,
+      "slack_rate": 0.82
+    }
+  }
+}

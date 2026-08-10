@@ -1,0 +1,148 @@
+{
+ "dataset": "toolbench",
+ "seed": 42,
+ "n_decision_points_test": 7769,
+ "n_test_conversations": 2520,
+ "base_auc": 0.7688,
+ "keep_margin": 0.02,
+ "direction_a": {
+  "base": {
+   "auc": 0.7688,
+   "ci95": [
+    0.7456,
+    0.7915
+   ]
+  },
+  "+last": {
+   "auc": 0.7774,
+   "ci95": [
+    0.7557,
+    0.7992
+   ],
+   "delta_vs_base": 0.0086,
+   "beats_base": false
+  },
+  "+recency": {
+   "auc": 0.7755,
+   "ci95": [
+    0.7532,
+    0.7972
+   ],
+   "delta_vs_base": 0.0067,
+   "beats_base": false
+  },
+  "+delta": {
+   "auc": 0.7738,
+   "ci95": [
+    0.7515,
+    0.7956
+   ],
+   "delta_vs_base": 0.005,
+   "beats_base": false
+  },
+  "+all": {
+   "auc": 0.7767,
+   "ci95": [
+    0.7551,
+    0.7978
+   ],
+   "delta_vs_base": 0.0079,
+   "beats_base": false
+  },
+  "+all_shuffled": {
+   "auc": 0.764,
+   "ci95": [
+    0.7406,
+    0.787
+   ],
+   "delta_vs_base": -0.0048,
+   "beats_base": false
+  },
+  "keep_order_carries_signal": false,
+  "verdict": "KILL: degree-0 on the results is near-optimal"
+ },
+ "direction_b": {
+  "base": {
+   "auc": 0.7688,
+   "ci95": [
+    0.7456,
+    0.7915
+   ]
+  },
+  "+goal_result": {
+   "auc": 0.7728,
+   "ci95": [
+    0.7487,
+    0.7945
+   ],
+   "delta_vs_base": 0.004,
+   "beats_base": false
+  },
+  "+goal_progress": {
+   "auc": 0.7704,
+   "ci95": [
+    0.7473,
+    0.7927
+   ],
+   "delta_vs_base": 0.0016,
+   "beats_base": false
+  },
+  "+goal_all": {
+   "auc": 0.7742,
+   "ci95": [
+    0.7504,
+    0.7958
+   ],
+   "delta_vs_base": 0.0054,
+   "beats_base": false
+  },
+  "+goal_mismatch": {
+   "auc": 0.7685,
+   "ci95": [
+    0.745,
+    0.7912
+   ],
+   "delta_vs_base": -0.0003,
+   "beats_base": false
+  },
+  "keep_goal_conditioning": false,
+  "verdict": "KILL: dense goal-conditioning adds nothing over base (or is topicality, not goal-specific)"
+ },
+ "direction_c": {
+  "base": {
+   "auc": 0.7688,
+   "ci95": [
+    0.7456,
+    0.7915
+   ]
+  },
+  "+consistency": {
+   "auc": 0.7737,
+   "ci95": [
+    0.75,
+    0.7961
+   ],
+   "delta_vs_base": 0.0049,
+   "beats_base": false
+  },
+  "+repetition": {
+   "auc": 0.7709,
+   "ci95": [
+    0.7472,
+    0.7936
+   ],
+   "delta_vs_base": 0.0021,
+   "beats_base": false
+  },
+  "repetition_only": {
+   "auc": 0.5265,
+   "ci95": [
+    0.5094,
+    0.5413
+   ],
+   "above_chance": true
+  },
+  "keep_consistency": false,
+  "verdict": "KILL: role means already capture the cross-channel information"
+ }
+}

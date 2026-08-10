@@ -1,0 +1,8 @@
+{
+ "n_dialogues": 5700,
+ "n_labeled": 5697,
+ "n_no_goal": 0,
+ "n_unlabeled_goal": 3,
+ "failure_rate": 0.33649289099526064,
+ "avg_turns": 35.60526315789474
+}

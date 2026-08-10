@@ -1,0 +1,54 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tb_features",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "types": [
+        "user",
+        "assistant",
+        "tool_call",
+        "tool_result"
+      ],
+      "err_keywords": [
+        "error",
+        "invalid",
+        "not found",
+        "fail",
+        "timeout",
+        "exceeded",
+        "unauthorized",
+        "forbidden",
+        "rate limit",
+        "400",
+        "401",
+        "403",
+        "404",
+        "429",
+        "500",
+        "502",
+        "503"
+      ]
+    },
+    "timestamp": "20260723T085426",
+    "script": "tb_features.py",
+    "duration_seconds": null,
+    "git_commit": "db757c2b608069b43cba9b30623ddf3099fdea0b",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "fc59746fa88143afbad7c305c7da88891e9fcc307b0075464acd68e720e44e22",
+    "argv": [
+      "tb_features.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_conversations": 12598,
+    "n_prefix_samples": 38843,
+    "mean_thoughts": 1.0939037799835205,
+    "prefix_err_share_mean": 1.0
+  }
+}

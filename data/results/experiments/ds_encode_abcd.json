@@ -1,0 +1,7 @@
+{
+ "dataset": "abcd",
+ "n_conversations": 6399,
+ "n_turns_total": 154764,
+ "failure_rate": 0.13361462728551335,
+ "model": "sentence-transformers/all-MiniLM-L6-v2"
+}

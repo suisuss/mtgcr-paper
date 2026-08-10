@@ -1,0 +1,71 @@
+{
+  "_provenance": {
+    "experiment": "experiments/ds_experiments_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "n_boot": 1000
+    },
+    "timestamp": "20260723T104156",
+    "script": "ds_experiments.py",
+    "duration_seconds": null,
+    "git_commit": "d88c2bbeb315e4d73af44ad0da0833e46e440c9c",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "c3c85a4df7088928462b69e434a91d545c8bd47b0c14e89e7972f40277a55cf5",
+    "argv": [
+      "ds_experiments.py",
+      "abcd"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n": 6399,
+    "failure_rate": 0.13361462728551335,
+    "head": {
+      "auc_by_tau": [
+        0.6993417845717311,
+        0.7424987910860275,
+        0.7857290553098377,
+        0.8118163928136152
+      ],
+      "overall_auc": 0.7559403239072534,
+      "n_samples": 63427
+    },
+    "baselines": {
+      "goal_dist": [
+        0.49924702468564697,
+        0.5120017305668191,
+        0.538952426332906,
+        0.5666627345648299
+      ],
+      "step_count": [
+        0.49456677035474583,
+        0.49128387638021737,
+        0.49533535384799454,
+        0.49277287378677254
+      ]
+    },
+    "endpoints": {
+      "E1_final_turn": {
+        "auc": 0.4503620161514898,
+        "p": 2.8743841508907113e-06,
+        "n": 6399,
+        "fdr_pass": true
+      },
+      "E3_final_typed": {
+        "auc": 0.5659104621823919,
+        "p": 5.175721948760364e-10,
+        "n": 6399,
+        "fdr_pass": true
+      }
+    },
+    "ladder": null,
+    "assistant_share_auc": 0.5087152856889698
+  }
+}

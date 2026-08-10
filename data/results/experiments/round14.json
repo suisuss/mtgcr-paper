@@ -1,0 +1,89 @@
+{
+ "dataset": "toolbench",
+ "seed": 42,
+ "n_decision_points_test": 7769,
+ "n_test_conversations": 2520,
+ "direction_a": {
+  "drop_assistant": {
+   "auc": 0.7688,
+   "ci95": [
+    0.7456,
+    0.7915
+   ]
+  },
+  "err_naive": {
+   "auc": 0.6005,
+   "ci95": [
+    0.5763,
+    0.6243
+   ]
+  },
+  "err_strong": {
+   "auc": 0.6489,
+   "ci95": [
+    0.6236,
+    0.6739
+   ]
+  },
+  "gap_drop_minus_best_err": 0.1199,
+  "keep_drop_beats_err_by_margin": true,
+  "requalify_step5": false,
+  "verdict": "KEEP: fixed-roles carry signal beyond error-counting"
+ },
+ "direction_b": {
+  "in_domain": {
+   "skel_service": 0.7064,
+   "skel_name": 0.7047,
+   "skel_argkeys": 0.6543
+  },
+  "held_out_tool": {
+   "skel_service": 0.6708,
+   "skel_name": 0.6543,
+   "skel_argkeys": 0.6004
+  },
+  "in_domain_gain_name": -0.0017,
+  "in_domain_gain_argkeys": -0.0521,
+  "in_domain_null_confirmed": false,
+  "n_pure_seen_conv": 7423,
+  "n_pure_unseen_conv": 459,
+  "held_out_gain_name": -0.0165,
+  "held_out_gain_argkeys": -0.0704
+ },
+ "direction_c": {
+  "struct": {
+   "auc": 0.7414,
+   "ci95": [
+    0.7175,
+    0.7643
+   ]
+  },
+  "semantic": {
+   "auc": 0.7532,
+   "ci95": [
+    0.7293,
+    0.7779
+   ]
+  },
+  "both": {
+   "auc": 0.7531,
+   "ci95": [
+    0.7299,
+    0.7779
+   ]
+  },
+  "semantic_minus_struct": 0.0118,
+  "both_minus_semantic": -0.0,
+  "keep_semantic": false,
+  "n_empty_error_field_failures": 3385
+ },
+ "direction_d": {
+  "lane": "predictor",
+  "narration_attack_manipulability": 0.0,
+  "note": "success-channel arms (A err-rate, C struct) are invariant under the narration-only selection attack by construction - that 0 is NOT action-robustness and is not quoted as reward robustness. They stay predictor-lane until the action-substitution adversary runs.",
+  "action_substitution_evidence_abcd": {
+   "same_task_slack": 0.0,
+   "any_task_slack": 0.82,
+   "source": "policy_choice_abcd.json"
+  }
+ }
+}

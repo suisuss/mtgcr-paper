@@ -1,0 +1,63 @@
+{
+  "_provenance": {
+    "experiment": "experiments/goodhart_toolbench",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "ns": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ]
+    },
+    "timestamp": "20260723T115102",
+    "script": "goodhart_attack.py",
+    "duration_seconds": null,
+    "git_commit": "39317ea61e36e9bf3bf17b8ab7feb7cf0fdd41f2",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "2dcef85e915fcf854dd7c5a823a7ac2d8892941dfab1807ef07e35dadf75146c",
+    "argv": [
+      "goodhart_attack.py",
+      "toolbench"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "toolbench",
+    "threshold": 0.36587355286757783,
+    "n_test_failures": 498,
+    "base_recall": 0.7349397590361446,
+    "recall_by_n": {
+      "1": 0.6385542168674698,
+      "2": 0.5622489959839357,
+      "4": 0.4959839357429719,
+      "8": 0.43373493975903615,
+      "16": 0.3674698795180723
+    },
+    "drift_control_n1_recall": 0.6385542168674698,
+    "degradation_at_n16": 0.5,
+    "verdict": "graded",
+    "block_norms": {
+      "user": 19.98582325576264,
+      "assistant": 15.716987964200749,
+      "tool_call": 17.925016436780822,
+      "tool_result": 18.821997634345852
+    },
+    "agentlike_block": "assistant",
+    "min_L2_shift_median_failure": 0.011893571732940186,
+    "nearest_exploit_turn_sims": [
+      0.13473326990616777,
+      0.12767994079453454,
+      0.12688243434342308,
+      0.12388843548549666,
+      0.12337009133218227
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_provenance": {
+    "experiment": "experiments/toolbench_encode",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "batch": 256
+    },
+    "timestamp": "20260723T085417",
+    "script": "toolbench_encode.py",
+    "duration_seconds": null,
+    "git_commit": "db757c2b608069b43cba9b30623ddf3099fdea0b",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "8e129758960eb1ca064c872ed5c2fda0222e7f918f6111933829367d633477b9",
+    "argv": [
+      "toolbench_encode.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_conversations": 12598,
+    "n_turns_total": 115945,
+    "failure_rate": 0.20169868233052865,
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dim": 384
+  }
+}

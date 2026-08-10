@@ -1,0 +1,90 @@
+{
+ "corpus": "sgd",
+ "n": 1000,
+ "cells": [
+  {
+   "functional": "E1_raw_final",
+   "target": "y0_mean",
+   "rho": 0.005006246369907674,
+   "p": 0.8743666552238916,
+   "fdr_pass": false
+  },
+  {
+   "functional": "E1_raw_final",
+   "target": "y1_trend",
+   "rho": 0.0605872138154017,
+   "p": 0.05545434014197419,
+   "fdr_pass": false
+  },
+  {
+   "functional": "E1_raw_final",
+   "target": "y2_recovery",
+   "rho": -0.12729973547467607,
+   "p": 5.41458534728118e-05,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E2_fitted_end",
+   "target": "y0_mean",
+   "rho": -0.06846463200978833,
+   "p": 0.030397297220937366,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E2_fitted_end",
+   "target": "y1_trend",
+   "rho": 0.08074552632956014,
+   "p": 0.010637831847372851,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E2_fitted_end",
+   "target": "y2_recovery",
+   "rho": -0.09675164339153058,
+   "p": 0.0021919075193350397,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E3_closest",
+   "target": "y0_mean",
+   "rho": -0.05317316478840272,
+   "p": 0.09284665516437586,
+   "fdr_pass": false
+  },
+  {
+   "functional": "E3_closest",
+   "target": "y1_trend",
+   "rho": 0.10461813618355281,
+   "p": 0.0009221061122689103,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E3_closest",
+   "target": "y2_recovery",
+   "rho": -0.08805568866072222,
+   "p": 0.005328113306888785,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E4_initial",
+   "target": "y0_mean",
+   "rho": -0.0928692540488488,
+   "p": 0.003287792640548086,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E4_initial",
+   "target": "y1_trend",
+   "rho": 0.07842918007443128,
+   "p": 0.01310626417051584,
+   "fdr_pass": true
+  },
+  {
+   "functional": "E4_initial",
+   "target": "y2_recovery",
+   "rho": -0.060536372701885575,
+   "p": 0.05565988260731369,
+   "fdr_pass": false
+  }
+ ]
+}
