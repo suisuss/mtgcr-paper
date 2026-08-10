@@ -1,0 +1,71 @@
+{
+  "_provenance": {
+    "experiment": "experiments/ds_experiments_spokenwoz",
+    "config": "default",
+    "dataset": "spokenwoz",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "n_boot": 1000
+    },
+    "timestamp": "20260723T115054",
+    "script": "ds_experiments.py",
+    "duration_seconds": null,
+    "git_commit": "39317ea61e36e9bf3bf17b8ab7feb7cf0fdd41f2",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "b82edde4d55444d5d74682e907df37ac9b282aec984ec61b75ed208d63228bf5",
+    "argv": [
+      "ds_experiments.py",
+      "spokenwoz"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "spokenwoz",
+    "n": 5697,
+    "failure_rate": 0.33649289099526064,
+    "head": {
+      "auc_by_tau": [
+        0.5754579769563875,
+        0.6318414385534826,
+        0.6649205208598441,
+        0.6901110620525872
+      ],
+      "overall_auc": 0.6357662714954714,
+      "n_samples": 101408
+    },
+    "baselines": {
+      "goal_dist": [
+        0.49468618041417856,
+        0.5065475045862557,
+        0.5202639345508995,
+        0.5152284139808915
+      ],
+      "step_count": [
+        0.5260136386314116,
+        0.5452445567419124,
+        0.546055988941735,
+        0.5476832702913396
+      ]
+    },
+    "endpoints": {
+      "E1_final_turn": {
+        "auc": 0.47993351052818967,
+        "p": 0.013179403223149932,
+        "n": 5697,
+        "fdr_pass": true
+      },
+      "E3_final_typed": {
+        "auc": 0.47993351052818967,
+        "p": 0.013179403223149932,
+        "n": 5697,
+        "fdr_pass": true
+      }
+    },
+    "ladder": null,
+    "assistant_share_auc": 0.5
+  }
+}

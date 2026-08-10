@@ -1,0 +1,59 @@
+{
+  "_provenance": {
+    "experiment": "experiments/spike3_subturn_prism",
+    "config": "default",
+    "dataset": "prism",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "alphas": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "seed": 42,
+      "n_boot": 1000,
+      "keep_delta": 0.02
+    },
+    "timestamp": "20260723T041201",
+    "script": "spike3b_subturn_ladder.py",
+    "duration_seconds": null,
+    "git_commit": "6b45a09514750cd30c03b15ab4f1f42f58e65878",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "fc6ec9c344db91cfcb18faf84415f02c7f6194be87eddc7e665ac82cb5130ce8",
+    "argv": [
+      "spike3b_subturn_ladder.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_responses": 56032,
+    "n_conversations": 7984,
+    "oof_spearman": {
+      "R1_content_length": 0.190461467223949,
+      "R3_plus_drift": 0.1875308963747376,
+      "R4_plus_surprise": 0.18834705118981415
+    },
+    "ladder": {
+      "R3_plus_drift-R1_content_length": {
+        "delta": -0.002930570849211389,
+        "ci": [
+          -0.006612324796081719,
+          0.0008233721505354756
+        ],
+        "keep": false
+      },
+      "R4_plus_surprise-R3_plus_drift": {
+        "delta": 0.0008161548150765474,
+        "ci": [
+          0.00018773191015722114,
+          0.0015031636674617279
+        ],
+        "keep": false
+      }
+    },
+    "median_n_sentences": 5.0
+  }
+}

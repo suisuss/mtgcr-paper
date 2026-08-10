@@ -1,0 +1,81 @@
+{
+ "dataset": "bge",
+ "n_test_failures": 498,
+ "pool_size": 10343,
+ "budgets": [
+  "1",
+  "16",
+  "64",
+  "256",
+  "exhaustive"
+ ],
+ "arms": {
+  "flat": {
+   "accuracy_auc": 0.8016831873187786,
+   "base_recall": 0.7690763052208835,
+   "curve": {
+    "1": {
+     "recall": 0.6867469879518072,
+     "manipulability": 0.10704960835509142
+    },
+    "16": {
+     "recall": 0.4357429718875502,
+     "manipulability": 0.4334203655352481
+    },
+    "64": {
+     "recall": 0.3755020080321285,
+     "manipulability": 0.5117493472584856
+    },
+    "256": {
+     "recall": 0.3253012048192771,
+     "manipulability": 0.577023498694517
+    },
+    "exhaustive": {
+     "recall": 0.26104417670682734,
+     "manipulability": 0.660574412532637
+    }
+   }
+  },
+  "typicality": {
+   "accuracy_auc": 0.7974906244650888,
+   "base_recall": 0.7590361445783133,
+   "curve": {
+    "1": {
+     "recall": 0.8273092369477911,
+     "manipulability": -0.0899470899470899
+    },
+    "16": {
+     "recall": 0.7891566265060241,
+     "manipulability": -0.039682539682539736
+    },
+    "64": {
+     "recall": 0.7751004016064257,
+     "manipulability": -0.021164021164021135
+    },
+    "256": {
+     "recall": 0.7751004016064257,
+     "manipulability": -0.021164021164021135
+    },
+    "exhaustive": {
+     "recall": 0.7550200803212851,
+     "manipulability": 0.005291005291005357
+    }
+   }
+  }
+ },
+ "nesting_guard": {
+  "flat": {
+   "n16": 0.4334203655352481,
+   "published": 0.4476439790575916,
+   "within_tol": true
+  },
+  "typicality": {
+   "n16": -0.039682539682539736,
+   "published": -0.039682539682539736,
+   "within_tol": true
+  }
+ },
+ "typicality_ceiling_manipulability": 0.005291005291005357,
+ "typicality_verdict": "keep",
+ "invariant_arms_note": "skeleton / drop_written arms: manipulability 0 for every budget by construction (agentlike block absent from feature); asserted, not swept."
+}

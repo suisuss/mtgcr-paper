@@ -1,0 +1,48 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tool_relational",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42
+    },
+    "timestamp": "20260723T150439",
+    "script": "tool_relational.py",
+    "duration_seconds": null,
+    "git_commit": "bd6bbcff8657cdde43f4627b970935564568e76d",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "8099f678c56332c8244b8c5f4934b7ea852af8a69fae752b9f6a44c101b479ec",
+    "argv": [
+      "tool_relational.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "toolbench",
+    "n_test_failures": 498,
+    "arms": {
+      "skeleton": {
+        "accuracy_auc": 0.7064484488222875,
+        "base_recall": 0.357429718875502,
+        "n16_recall": 0.357429718875502,
+        "manipulability": 0.0
+      },
+      "relational": {
+        "accuracy_auc": 0.7621708707447001,
+        "base_recall": 0.5120481927710844,
+        "n16_recall": 0.1646586345381526,
+        "manipulability": 0.6784313725490196
+      },
+      "gated": {
+        "accuracy_auc": 0.7567863830405261,
+        "base_recall": 0.572289156626506,
+        "n16_recall": 0.18674698795180722,
+        "manipulability": 0.6736842105263158
+      }
+    }
+  }
+}

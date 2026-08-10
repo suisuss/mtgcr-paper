@@ -1,0 +1,7 @@
+{
+ "n_trajectories": 11983,
+ "n_instances": 521,
+ "failure_rate": 0.846198781607277,
+ "avg_turns": 52.51990319619461,
+ "total_turns": 629346
+}

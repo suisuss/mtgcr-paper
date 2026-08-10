@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "experiment": "experiments/toolbench_preprocess",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "max_files": null
+    },
+    "timestamp": "20260723T053617",
+    "script": "toolbench_preprocess.py",
+    "duration_seconds": null,
+    "git_commit": "1ddd537e943ccade1e5d529b8f8203874e47206f",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "1d48ba75e71674d09315cd30ffa0d16fd8e1e2449b0d43ed03c990c9f9ed9729",
+    "argv": [
+      "toolbench_preprocess.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_conversations": 12598,
+    "failure_rate": 0.20169868233052865,
+    "groups": {
+      "G1_answer": 3389,
+      "G2_answer": 4664,
+      "G3_answer": 4545
+    },
+    "with_goal_text": 12598,
+    "avg_turns": 9.203444991268455
+  }
+}

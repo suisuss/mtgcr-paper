@@ -1,0 +1,1862 @@
+{
+  "version": "1.0",
+  "created": "2026-07-23T03:57:50.983032",
+  "updated": "2026-07-25T13:01:32.622240",
+  "results": {
+    "experiments/spike1_zone_sgd:default:sgd:none:20260723T035750": {
+      "experiment": "experiments/spike1_zone_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T035750",
+      "path": "experiments/spike1_zone_sgd/sgd/default/spike1_zone_sgd_20260723T035750.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:879b79d00aafe6b9",
+      "size_bytes": 3366,
+      "duration_seconds": null,
+      "script": "spike1_zone_clustering.py"
+    },
+    "experiments/spike1_zone_mwoz:default:mwoz:none:20260723T035842": {
+      "experiment": "experiments/spike1_zone_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T035842",
+      "path": "experiments/spike1_zone_mwoz/mwoz/default/spike1_zone_mwoz_20260723T035842.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:9e813375682f214e",
+      "size_bytes": 3392,
+      "duration_seconds": null,
+      "script": "spike1_zone_clustering.py"
+    },
+    "experiments/spike2_endpoint_sgd:default:sgd:none:20260723T035917": {
+      "experiment": "experiments/spike2_endpoint_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T035917",
+      "path": "experiments/spike2_endpoint_sgd/sgd/default/spike2_endpoint_sgd_20260723T035917.json",
+      "params": {
+        "keywords": [
+          "thank",
+          "thanks",
+          "goodbye",
+          "bye",
+          "welcome",
+          "good day",
+          "great day",
+          "nice day",
+          "that's all",
+          "that is all",
+          "have a good",
+          "appreciate"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:c85bacf4ee8e2184",
+      "size_bytes": 1964,
+      "duration_seconds": null,
+      "script": "spike2_endpoint_descriptive.py"
+    },
+    "experiments/spike2_endpoint_mwoz:default:mwoz:none:20260723T035918": {
+      "experiment": "experiments/spike2_endpoint_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T035918",
+      "path": "experiments/spike2_endpoint_mwoz/mwoz/default/spike2_endpoint_mwoz_20260723T035918.json",
+      "params": {
+        "keywords": [
+          "thank",
+          "thanks",
+          "goodbye",
+          "bye",
+          "welcome",
+          "good day",
+          "great day",
+          "nice day",
+          "that's all",
+          "that is all",
+          "have a good",
+          "appreciate"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:03d2236f66f07260",
+      "size_bytes": 1959,
+      "duration_seconds": null,
+      "script": "spike2_endpoint_descriptive.py"
+    },
+    "experiments/spike1_zone_sgd:default:sgd:none:20260723T040241": {
+      "experiment": "experiments/spike1_zone_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T040241",
+      "path": "experiments/spike1_zone_sgd/sgd/default/spike1_zone_sgd_20260723T040241.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:093521dfdf00c43d",
+      "size_bytes": 3366,
+      "duration_seconds": null,
+      "script": "spike1_zone_clustering.py"
+    },
+    "experiments/spike1_zone_mwoz:default:mwoz:none:20260723T040346": {
+      "experiment": "experiments/spike1_zone_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T040346",
+      "path": "experiments/spike1_zone_mwoz/mwoz/default/spike1_zone_mwoz_20260723T040346.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:46dfec21512d5a34",
+      "size_bytes": 3392,
+      "duration_seconds": null,
+      "script": "spike1_zone_clustering.py"
+    },
+    "experiments/spike2_endpoint_sgd:default:sgd:none:20260723T040348": {
+      "experiment": "experiments/spike2_endpoint_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T040348",
+      "path": "experiments/spike2_endpoint_sgd/sgd/default/spike2_endpoint_sgd_20260723T040348.json",
+      "params": {
+        "keywords": [
+          "thank",
+          "thanks",
+          "goodbye",
+          "bye",
+          "welcome",
+          "good day",
+          "great day",
+          "nice day",
+          "that's all",
+          "that is all",
+          "have a good",
+          "appreciate"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:6d66f437c9e47132",
+      "size_bytes": 1964,
+      "duration_seconds": null,
+      "script": "spike2_endpoint_descriptive.py"
+    },
+    "experiments/spike2_endpoint_mwoz:default:mwoz:none:20260723T040349": {
+      "experiment": "experiments/spike2_endpoint_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T040349",
+      "path": "experiments/spike2_endpoint_mwoz/mwoz/default/spike2_endpoint_mwoz_20260723T040349.json",
+      "params": {
+        "keywords": [
+          "thank",
+          "thanks",
+          "goodbye",
+          "bye",
+          "welcome",
+          "good day",
+          "great day",
+          "nice day",
+          "that's all",
+          "that is all",
+          "have a good",
+          "appreciate"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:f964492df7eb6a7a",
+      "size_bytes": 1959,
+      "duration_seconds": null,
+      "script": "spike2_endpoint_descriptive.py"
+    },
+    "experiments/spike3a_prism_encode:default:prism:none:20260723T040903": {
+      "experiment": "experiments/spike3a_prism_encode",
+      "config": "default",
+      "dataset": "prism",
+      "variant": "none",
+      "timestamp": "20260723T040903",
+      "path": "experiments/spike3a_prism_encode/prism/default/spike3a_prism_encode_20260723T040903.json",
+      "params": {
+        "min_seg_chars": 10,
+        "min_segs": 3,
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:74aa9e7b2434a112",
+      "size_bytes": 1007,
+      "duration_seconds": null,
+      "script": "spike3a_prism_encode.py"
+    },
+    "experiments/spike3_subturn_prism:default:prism:none:20260723T041201": {
+      "experiment": "experiments/spike3_subturn_prism",
+      "config": "default",
+      "dataset": "prism",
+      "variant": "none",
+      "timestamp": "20260723T041201",
+      "path": "experiments/spike3_subturn_prism/prism/default/spike3_subturn_prism_20260723T041201.json",
+      "params": {
+        "alphas": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "seed": 42,
+        "n_boot": 1000,
+        "keep_delta": 0.02
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:13ab7e76dc929ce2",
+      "size_bytes": 1446,
+      "duration_seconds": null,
+      "script": "spike3b_subturn_ladder.py"
+    },
+    "experiments/toolbench_preprocess:default:toolbench:none:20260723T053617": {
+      "experiment": "experiments/toolbench_preprocess",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T053617",
+      "path": "experiments/toolbench_preprocess/toolbench/default/toolbench_preprocess_20260723T053617.json",
+      "params": {
+        "max_files": null
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:243d7b74774fd795",
+      "size_bytes": 888,
+      "duration_seconds": null,
+      "script": "toolbench_preprocess.py"
+    },
+    "experiments/toolbench_encode:default:toolbench:none:20260723T053813": {
+      "experiment": "experiments/toolbench_encode",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T053813",
+      "path": "experiments/toolbench_encode/toolbench/default/toolbench_encode_20260723T053813.json",
+      "params": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2",
+        "batch": 256
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:4e382435170bdbcc",
+      "size_bytes": 866,
+      "duration_seconds": null,
+      "script": "toolbench_encode.py"
+    },
+    "experiments/spike1_zone_sgd:default:sgd:none:20260723T084628": {
+      "experiment": "experiments/spike1_zone_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T084628",
+      "path": "experiments/spike1_zone_sgd/sgd/default/spike1_zone_sgd_20260723T084628.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:1a0a7b1f531c4283",
+      "size_bytes": 3366,
+      "duration_seconds": null,
+      "script": "spike1_zone_clustering.py"
+    },
+    "experiments/spike1_zone_mwoz:default:mwoz:none:20260723T084733": {
+      "experiment": "experiments/spike1_zone_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T084733",
+      "path": "experiments/spike1_zone_mwoz/mwoz/default/spike1_zone_mwoz_20260723T084733.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:d6a56177dd5775cc",
+      "size_bytes": 3392,
+      "duration_seconds": null,
+      "script": "spike1_zone_clustering.py"
+    },
+    "experiments/spike2_endpoint_sgd:default:sgd:none:20260723T084734": {
+      "experiment": "experiments/spike2_endpoint_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T084734",
+      "path": "experiments/spike2_endpoint_sgd/sgd/default/spike2_endpoint_sgd_20260723T084734.json",
+      "params": {
+        "keywords": [
+          "thank",
+          "thanks",
+          "goodbye",
+          "bye",
+          "welcome",
+          "good day",
+          "great day",
+          "nice day",
+          "that's all",
+          "that is all",
+          "have a good",
+          "appreciate"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:6228fb7b8b8c96c8",
+      "size_bytes": 1964,
+      "duration_seconds": null,
+      "script": "spike2_endpoint_descriptive.py"
+    },
+    "experiments/spike2_endpoint_mwoz:default:mwoz:none:20260723T084735": {
+      "experiment": "experiments/spike2_endpoint_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T084735",
+      "path": "experiments/spike2_endpoint_mwoz/mwoz/default/spike2_endpoint_mwoz_20260723T084735.json",
+      "params": {
+        "keywords": [
+          "thank",
+          "thanks",
+          "goodbye",
+          "bye",
+          "welcome",
+          "good day",
+          "great day",
+          "nice day",
+          "that's all",
+          "that is all",
+          "have a good",
+          "appreciate"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:bcf5ee94e0c95405",
+      "size_bytes": 1959,
+      "duration_seconds": null,
+      "script": "spike2_endpoint_descriptive.py"
+    },
+    "experiments/spike3a_prism_encode:default:prism:none:20260723T084906": {
+      "experiment": "experiments/spike3a_prism_encode",
+      "config": "default",
+      "dataset": "prism",
+      "variant": "none",
+      "timestamp": "20260723T084906",
+      "path": "experiments/spike3a_prism_encode/prism/default/spike3a_prism_encode_20260723T084906.json",
+      "params": {
+        "min_seg_chars": 10,
+        "min_segs": 3,
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:5abfbc57b2295a7d",
+      "size_bytes": 1007,
+      "duration_seconds": null,
+      "script": "spike3a_prism_encode.py"
+    },
+    "experiments/spike3_subturn_prism:default:prism:none:20260723T085225": {
+      "experiment": "experiments/spike3_subturn_prism",
+      "config": "default",
+      "dataset": "prism",
+      "variant": "none",
+      "timestamp": "20260723T085225",
+      "path": "experiments/spike3_subturn_prism/prism/default/spike3_subturn_prism_20260723T085225.json",
+      "params": {
+        "alphas": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "seed": 42,
+        "n_boot": 1000,
+        "keep_delta": 0.02
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:f9f472a7d4851d2d",
+      "size_bytes": 1448,
+      "duration_seconds": null,
+      "script": "spike3b_subturn_ladder.py"
+    },
+    "experiments/toolbench_preprocess:default:toolbench:none:20260723T085232": {
+      "experiment": "experiments/toolbench_preprocess",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T085232",
+      "path": "experiments/toolbench_preprocess/toolbench/default/toolbench_preprocess_20260723T085232.json",
+      "params": {
+        "max_files": null
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:1d61beab82e65e46",
+      "size_bytes": 888,
+      "duration_seconds": null,
+      "script": "toolbench_preprocess.py"
+    },
+    "experiments/toolbench_encode:default:toolbench:none:20260723T085417": {
+      "experiment": "experiments/toolbench_encode",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T085417",
+      "path": "experiments/toolbench_encode/toolbench/default/toolbench_encode_20260723T085417.json",
+      "params": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2",
+        "batch": 256
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:76fb38f221edaec2",
+      "size_bytes": 866,
+      "duration_seconds": null,
+      "script": "toolbench_encode.py"
+    },
+    "experiments/tb_features:default:toolbench:none:20260723T085426": {
+      "experiment": "experiments/tb_features",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T085426",
+      "path": "experiments/tb_features/toolbench/default/tb_features_20260723T085426.json",
+      "params": {
+        "types": [
+          "user",
+          "assistant",
+          "tool_call",
+          "tool_result"
+        ],
+        "err_keywords": [
+          "error",
+          "invalid",
+          "not found",
+          "fail",
+          "timeout",
+          "exceeded",
+          "unauthorized",
+          "forbidden",
+          "rate limit",
+          "400",
+          "401",
+          "403",
+          "404",
+          "429",
+          "500",
+          "502",
+          "503"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:8e56a6ef1dcbcf3c",
+      "size_bytes": 1176,
+      "duration_seconds": null,
+      "script": "tb_features.py"
+    },
+    "experiments/tb_endpoint:default:toolbench:none:20260723T085428": {
+      "experiment": "experiments/tb_endpoint",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T085428",
+      "path": "experiments/tb_endpoint/toolbench/default/tb_endpoint_20260723T085428.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:da33e10ab1a8b182",
+      "size_bytes": 1413,
+      "duration_seconds": null,
+      "script": "tb_endpoint.py"
+    },
+    "experiments/tb_ladder:default:toolbench:none:20260723T090058": {
+      "experiment": "experiments/tb_ladder",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T090058",
+      "path": "experiments/tb_ladder/toolbench/default/tb_ladder_20260723T090058.json",
+      "params": {
+        "seed": 42,
+        "n_boot": 1000,
+        "keep_delta": 0.01
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:21fd917e2d6e1f1e",
+      "size_bytes": 1577,
+      "duration_seconds": null,
+      "script": "tb_ladder.py"
+    },
+    "experiments/tb_earlywarn:default:toolbench:none:20260723T090848": {
+      "experiment": "experiments/tb_earlywarn",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T090848",
+      "path": "experiments/tb_earlywarn/toolbench/default/tb_earlywarn_20260723T090848.json",
+      "params": {
+        "k": 64,
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:9f260c92298def89",
+      "size_bytes": 2042,
+      "duration_seconds": null,
+      "script": "tb_earlywarn.py"
+    },
+    "experiments/gram_equivalence:default:toolbench+sgd:none:20260723T094815": {
+      "experiment": "experiments/gram_equivalence",
+      "config": "default",
+      "dataset": "toolbench+sgd",
+      "variant": "none",
+      "timestamp": "20260723T094815",
+      "path": "experiments/gram_equivalence/toolbench+sgd/default/gram_equivalence_20260723T094815.json",
+      "params": {
+        "tolerance": 0.0001,
+        "max_conversations": 2000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:cd502f77736cd1b5",
+      "size_bytes": 868,
+      "duration_seconds": null,
+      "script": "gram_equivalence.py"
+    },
+    "experiments/tb3_error:default:toolbench:none:20260723T094817": {
+      "experiment": "experiments/tb3_error",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T094817",
+      "path": "experiments/tb3_error/toolbench/default/tb3_error_20260723T094817.json",
+      "params": {
+        "patterns": [
+          "\"error\"\\s*:\\s*\"[^\"]",
+          "status_code=4",
+          "status_code=5",
+          "HTTPSConnectionPool",
+          "Function executing from",
+          "timeout",
+          "timed out"
+        ],
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:34c0c905ef16028b",
+      "size_bytes": 1188,
+      "duration_seconds": null,
+      "script": "tb3_error.py"
+    },
+    "experiments/tb3_confound:default:toolbench:none:20260723T094819": {
+      "experiment": "experiments/tb3_confound",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T094819",
+      "path": "experiments/tb3_confound/toolbench/default/tb3_confound_20260723T094819.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:16e020f64639bdb0",
+      "size_bytes": 1553,
+      "duration_seconds": null,
+      "script": "tb3_confound.py"
+    },
+    "experiments/tb3_goalhug:default:toolbench:none:20260723T094822": {
+      "experiment": "experiments/tb3_goalhug",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T094822",
+      "path": "experiments/tb3_goalhug/toolbench/default/tb3_goalhug_20260723T094822.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:ba880b773531f9f5",
+      "size_bytes": 2369,
+      "duration_seconds": null,
+      "script": "tb3_goalhug.py"
+    },
+    "experiments/tb3_head:default:toolbench:none:20260723T095320": {
+      "experiment": "experiments/tb3_head",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T095320",
+      "path": "experiments/tb3_head/toolbench/default/tb3_head_20260723T095320.json",
+      "params": {
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:69221c9655c205cb",
+      "size_bytes": 10790,
+      "duration_seconds": null,
+      "script": "tb3_head.py"
+    },
+    "experiments/abcd_preprocess:default:abcd:none:20260723T104030": {
+      "experiment": "experiments/abcd_preprocess",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T104030",
+      "path": "experiments/abcd_preprocess/abcd/default/abcd_preprocess_20260723T104030.json",
+      "params": {
+        "success_threshold": 0.8
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:282575ec26e16147",
+      "size_bytes": 878,
+      "duration_seconds": null,
+      "script": "abcd_preprocess.py"
+    },
+    "experiments/abcd_escalation:default:abcd:none:20260723T104031": {
+      "experiment": "experiments/abcd_escalation",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T104031",
+      "path": "experiments/abcd_escalation/abcd/default/abcd_escalation_20260723T104031.json",
+      "params": {
+        "pattern": "escalat|manager|supervisor|handoff|transfer",
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:410cd0f14e59e592",
+      "size_bytes": 8862,
+      "duration_seconds": null,
+      "script": "abcd_escalation.py"
+    },
+    "experiments/ds_encode_abcd:default:abcd:none:20260723T104103": {
+      "experiment": "experiments/ds_encode_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T104103",
+      "path": "experiments/ds_encode_abcd/abcd/default/ds_encode_abcd_20260723T104103.json",
+      "params": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:b7a225afe3799775",
+      "size_bytes": 845,
+      "duration_seconds": null,
+      "script": "ds_encode.py"
+    },
+    "experiments/ds_experiments_abcd:default:abcd:none:20260723T104156": {
+      "experiment": "experiments/ds_experiments_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T104156",
+      "path": "experiments/ds_experiments_abcd/abcd/default/ds_experiments_abcd_20260723T104156.json",
+      "params": {
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:b5575943806ffe9e",
+      "size_bytes": 1678,
+      "duration_seconds": null,
+      "script": "ds_experiments.py"
+    },
+    "experiments/swe_preprocess:default:swe:none:20260723T104241": {
+      "experiment": "experiments/swe_preprocess",
+      "config": "default",
+      "dataset": "swe",
+      "variant": "none",
+      "timestamp": "20260723T104241",
+      "path": "experiments/swe_preprocess/swe/default/swe_preprocess_20260723T104241.json",
+      "params": {
+        "seed": 42,
+        "target_traj": 12000,
+        "trunc": 500
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:2faa65ce16b31cb8",
+      "size_bytes": 827,
+      "duration_seconds": null,
+      "script": "swe_preprocess.py"
+    },
+    "experiments/ds_encode_swe:default:swe:none:20260723T111802": {
+      "experiment": "experiments/ds_encode_swe",
+      "config": "default",
+      "dataset": "swe",
+      "variant": "none",
+      "timestamp": "20260723T111802",
+      "path": "experiments/ds_encode_swe/swe/default/ds_encode_swe_20260723T111802.json",
+      "params": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:8c12d161bd629f1d",
+      "size_bytes": 840,
+      "duration_seconds": null,
+      "script": "ds_encode.py"
+    },
+    "experiments/ds_experiments_swe:default:swe:none:20260723T113718": {
+      "experiment": "experiments/ds_experiments_swe",
+      "config": "default",
+      "dataset": "swe",
+      "variant": "none",
+      "timestamp": "20260723T113718",
+      "path": "experiments/ds_experiments_swe/swe/default/ds_experiments_swe_20260723T113718.json",
+      "params": {
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:685692796d22bca5",
+      "size_bytes": 3095,
+      "duration_seconds": null,
+      "script": "ds_experiments.py"
+    },
+    "experiments/ds_experiments_abcd:default:abcd:none:20260723T113828": {
+      "experiment": "experiments/ds_experiments_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T113828",
+      "path": "experiments/ds_experiments_abcd/abcd/default/ds_experiments_abcd_20260723T113828.json",
+      "params": {
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:b0be9608b3659866",
+      "size_bytes": 1678,
+      "duration_seconds": null,
+      "script": "ds_experiments.py"
+    },
+    "experiments/spokenwoz_preprocess:default:spokenwoz:none:20260723T114547": {
+      "experiment": "experiments/spokenwoz_preprocess",
+      "config": "default",
+      "dataset": "spokenwoz",
+      "variant": "none",
+      "timestamp": "20260723T114547",
+      "path": "experiments/spokenwoz_preprocess/spokenwoz/default/spokenwoz_preprocess_20260723T114547.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:8d3a0731d2a2b600",
+      "size_bytes": 797,
+      "duration_seconds": null,
+      "script": "spokenwoz_preprocess.py"
+    },
+    "experiments/spokenwoz_preprocess:default:spokenwoz:none:20260723T114642": {
+      "experiment": "experiments/spokenwoz_preprocess",
+      "config": "default",
+      "dataset": "spokenwoz",
+      "variant": "none",
+      "timestamp": "20260723T114642",
+      "path": "experiments/spokenwoz_preprocess/spokenwoz/default/spokenwoz_preprocess_20260723T114642.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:fe00e8203ba7404a",
+      "size_bytes": 798,
+      "duration_seconds": null,
+      "script": "spokenwoz_preprocess.py"
+    },
+    "experiments/spokenwoz_preprocess:default:spokenwoz:none:20260723T114936": {
+      "experiment": "experiments/spokenwoz_preprocess",
+      "config": "default",
+      "dataset": "spokenwoz",
+      "variant": "none",
+      "timestamp": "20260723T114936",
+      "path": "experiments/spokenwoz_preprocess/spokenwoz/default/spokenwoz_preprocess_20260723T114936.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:a2b5fba51a30bc12",
+      "size_bytes": 798,
+      "duration_seconds": null,
+      "script": "spokenwoz_preprocess.py"
+    },
+    "experiments/ds_encode_spokenwoz:default:spokenwoz:none:20260723T115020": {
+      "experiment": "experiments/ds_encode_spokenwoz",
+      "config": "default",
+      "dataset": "spokenwoz",
+      "variant": "none",
+      "timestamp": "20260723T115020",
+      "path": "experiments/ds_encode_spokenwoz/spokenwoz/default/ds_encode_spokenwoz_20260723T115020.json",
+      "params": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:8b8b9cedc49cb164",
+      "size_bytes": 865,
+      "duration_seconds": null,
+      "script": "ds_encode.py"
+    },
+    "experiments/ds_experiments_spokenwoz:default:spokenwoz:none:20260723T115054": {
+      "experiment": "experiments/ds_experiments_spokenwoz",
+      "config": "default",
+      "dataset": "spokenwoz",
+      "variant": "none",
+      "timestamp": "20260723T115054",
+      "path": "experiments/ds_experiments_spokenwoz/spokenwoz/default/ds_experiments_spokenwoz_20260723T115054.json",
+      "params": {
+        "seed": 42,
+        "n_boot": 1000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:ac5d0f06d9b6cd19",
+      "size_bytes": 1679,
+      "duration_seconds": null,
+      "script": "ds_experiments.py"
+    },
+    "experiments/goodhart_toolbench:default:toolbench:none:20260723T115102": {
+      "experiment": "experiments/goodhart_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T115102",
+      "path": "experiments/goodhart_toolbench/toolbench/default/goodhart_toolbench_20260723T115102.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:dc1e525c4f163aa1",
+      "size_bytes": 1605,
+      "duration_seconds": null,
+      "script": "goodhart_attack.py"
+    },
+    "experiments/goodhart_abcd:default:abcd:none:20260723T115113": {
+      "experiment": "experiments/goodhart_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T115113",
+      "path": "experiments/goodhart_abcd/abcd/default/goodhart_abcd_20260723T115113.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:adbc5f87337c5741",
+      "size_bytes": 1539,
+      "duration_seconds": null,
+      "script": "goodhart_attack.py"
+    },
+    "experiments/goodhart_matrix_abcd:default:abcd:none:20260723T123649": {
+      "experiment": "experiments/goodhart_matrix_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T123649",
+      "path": "experiments/goodhart_matrix_abcd/abcd/default/goodhart_matrix_abcd_20260723T123649.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:3ffc46ff921c2061",
+      "size_bytes": 2207,
+      "duration_seconds": null,
+      "script": "goodhart_matrix.py"
+    },
+    "experiments/goodhart_matrix_toolbench:default:toolbench:none:20260723T123717": {
+      "experiment": "experiments/goodhart_matrix_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T123717",
+      "path": "experiments/goodhart_matrix_toolbench/toolbench/default/goodhart_matrix_toolbench_20260723T123717.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:51c51d6a304b288d",
+      "size_bytes": 2157,
+      "duration_seconds": null,
+      "script": "goodhart_matrix.py"
+    },
+    "experiments/goodhart_matrix_toolbench:default:toolbench:none:20260723T123826": {
+      "experiment": "experiments/goodhart_matrix_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T123826",
+      "path": "experiments/goodhart_matrix_toolbench/toolbench/default/goodhart_matrix_toolbench_20260723T123826.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:e016c0cdf203c891",
+      "size_bytes": 2154,
+      "duration_seconds": null,
+      "script": "goodhart_matrix.py"
+    },
+    "experiments/goodhart_matrix_abcd:default:abcd:none:20260723T123848": {
+      "experiment": "experiments/goodhart_matrix_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T123848",
+      "path": "experiments/goodhart_matrix_abcd/abcd/default/goodhart_matrix_abcd_20260723T123848.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:9b42c9dbb9404c9a",
+      "size_bytes": 2209,
+      "duration_seconds": null,
+      "script": "goodhart_matrix.py"
+    },
+    "experiments/shape_reward_sgd:default:sgd:none:20260723T124504": {
+      "experiment": "experiments/shape_reward_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T124504",
+      "path": "experiments/shape_reward_sgd/sgd/default/shape_reward_sgd_20260723T124504.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "trials": 2000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:e3dc434a514440d0",
+      "size_bytes": 5869,
+      "duration_seconds": null,
+      "script": "shape_reward.py"
+    },
+    "experiments/shape_reward_sgd:default:sgd:none:20260723T124729": {
+      "experiment": "experiments/shape_reward_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T124729",
+      "path": "experiments/shape_reward_sgd/sgd/default/shape_reward_sgd_20260723T124729.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "trials": 2000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:308ab080097b001a",
+      "size_bytes": 6136,
+      "duration_seconds": null,
+      "script": "shape_reward.py"
+    },
+    "experiments/shape_reward_mwoz:default:mwoz:none:20260723T124735": {
+      "experiment": "experiments/shape_reward_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T124735",
+      "path": "experiments/shape_reward_mwoz/mwoz/default/shape_reward_mwoz_20260723T124735.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "trials": 2000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:58d11cff5224724b",
+      "size_bytes": 6146,
+      "duration_seconds": null,
+      "script": "shape_reward.py"
+    },
+    "experiments/endpoint_shape_sgd:default:sgd:none:20260723T131917": {
+      "experiment": "experiments/endpoint_shape_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260723T131917",
+      "path": "experiments/endpoint_shape_sgd/sgd/default/endpoint_shape_sgd_20260723T131917.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:00a14ac8e0318603",
+      "size_bytes": 2854,
+      "duration_seconds": null,
+      "script": "endpoint_shape.py"
+    },
+    "experiments/endpoint_shape_mwoz:default:mwoz:none:20260723T131918": {
+      "experiment": "experiments/endpoint_shape_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260723T131918",
+      "path": "experiments/endpoint_shape_mwoz/mwoz/default/endpoint_shape_mwoz_20260723T131918.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:a19199435b8f842e",
+      "size_bytes": 2861,
+      "duration_seconds": null,
+      "script": "endpoint_shape.py"
+    },
+    "experiments/goodhart_matrix_spokenwoz:default:spokenwoz:none:20260723T131943": {
+      "experiment": "experiments/goodhart_matrix_spokenwoz",
+      "config": "default",
+      "dataset": "spokenwoz",
+      "variant": "none",
+      "timestamp": "20260723T131943",
+      "path": "experiments/goodhart_matrix_spokenwoz/spokenwoz/default/goodhart_matrix_spokenwoz_20260723T131943.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          16
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:a6bbb86f1d6c133e",
+      "size_bytes": 2224,
+      "duration_seconds": null,
+      "script": "goodhart_matrix.py"
+    },
+    "experiments/tool_anchored:default:toolbench:none:20260723T135534": {
+      "experiment": "experiments/tool_anchored",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T135534",
+      "path": "experiments/tool_anchored/toolbench/default/tool_anchored_20260723T135534.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:805d1f1f5355d848",
+      "size_bytes": 1306,
+      "duration_seconds": null,
+      "script": "tool_anchored.py"
+    },
+    "experiments/skeleton_abcd:default:abcd:none:20260723T140246": {
+      "experiment": "experiments/skeleton_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T140246",
+      "path": "experiments/skeleton_abcd/abcd/default/skeleton_abcd_20260723T140246.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:bf33dfd347522c51",
+      "size_bytes": 1438,
+      "duration_seconds": null,
+      "script": "skeleton_abcd.py"
+    },
+    "experiments/skeleton_determinism_abcd:default:abcd:none:20260723T141042": {
+      "experiment": "experiments/skeleton_determinism_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T141042",
+      "path": "experiments/skeleton_determinism_abcd/abcd/default/skeleton_determinism_abcd_20260723T141042.json",
+      "params": {
+        "min_group": 5
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:06f50ac062e76fa5",
+      "size_bytes": 1034,
+      "duration_seconds": null,
+      "script": "skeleton_determinism.py"
+    },
+    "experiments/policy_choice_abcd:default:abcd:none:20260723T141047": {
+      "experiment": "experiments/policy_choice_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T141047",
+      "path": "experiments/policy_choice_abcd/abcd/default/policy_choice_abcd_20260723T141047.json",
+      "params": {
+        "seed": 42,
+        "n": 16
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:7760c0a30d631a23",
+      "size_bytes": 1137,
+      "duration_seconds": null,
+      "script": "policy_choice_abcd.py"
+    },
+    "experiments/skeleton_determinism_toolbench:default:toolbench:none:20260723T141049": {
+      "experiment": "experiments/skeleton_determinism_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T141049",
+      "path": "experiments/skeleton_determinism_toolbench/toolbench/default/skeleton_determinism_toolbench_20260723T141049.json",
+      "params": {
+        "min_group": 5
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:64576e75a4feba48",
+      "size_bytes": 1055,
+      "duration_seconds": null,
+      "script": "skeleton_determinism.py"
+    },
+    "experiments/tool_anchored_g1:default:toolbench:none:20260723T145029": {
+      "experiment": "experiments/tool_anchored_g1",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T145029",
+      "path": "experiments/tool_anchored_g1/toolbench/default/tool_anchored_g1_20260723T145029.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:4911622cd2c99e0b",
+      "size_bytes": 1128,
+      "duration_seconds": null,
+      "script": "tool_anchored_g1.py"
+    },
+    "experiments/tool_relational:default:toolbench:none:20260723T150439": {
+      "experiment": "experiments/tool_relational",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T150439",
+      "path": "experiments/tool_relational/toolbench/default/tool_relational_20260723T150439.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:667e1ea87d59bbd9",
+      "size_bytes": 1300,
+      "duration_seconds": null,
+      "script": "tool_relational.py"
+    },
+    "experiments/skeleton_roles:default:toolbench:none:20260723T152346": {
+      "experiment": "experiments/skeleton_roles",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T152346",
+      "path": "experiments/skeleton_roles/toolbench/default/skeleton_roles_20260723T152346.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:6a9090a4a0704eba",
+      "size_bytes": 1674,
+      "duration_seconds": null,
+      "script": "skeleton_roles.py"
+    },
+    "experiments/skeleton_roles_abcd:default:abcd:none:20260723T153740": {
+      "experiment": "experiments/skeleton_roles_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260723T153740",
+      "path": "experiments/skeleton_roles_abcd/abcd/default/skeleton_roles_abcd_20260723T153740.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:f9d37a0e7c3c11dc",
+      "size_bytes": 1637,
+      "duration_seconds": null,
+      "script": "skeleton_roles_abcd.py"
+    },
+    "experiments/skeleton_roles_bge:default:toolbench:none:20260723T163135": {
+      "experiment": "experiments/skeleton_roles_bge",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T163135",
+      "path": "experiments/skeleton_roles_bge/toolbench/default/skeleton_roles_bge_20260723T163135.json",
+      "params": {
+        "seed": 42,
+        "encoder": "BAAI/bge-large-en-v1.5"
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:1031ba50e1775d80",
+      "size_bytes": 1807,
+      "duration_seconds": null,
+      "script": "skeleton_roles_bge.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260723T201437": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260723T201437",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260723T201437.json",
+      "params": {
+        "exemplar": 12543,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:d3bdcd972abea0ea",
+      "size_bytes": 728,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260724T135952": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T135952",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260724T135952.json",
+      "params": {
+        "exemplar": 12543,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:796fd50d17d8771e",
+      "size_bytes": 728,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/round14:default:toolbench:none:20260724T140945": {
+      "experiment": "experiments/round14",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T140945",
+      "path": "experiments/round14/toolbench/default/round14_20260724T140945.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:0a29a5351fdb936f",
+      "size_bytes": 2886,
+      "duration_seconds": null,
+      "script": "round14.py"
+    },
+    "experiments/round15:default:toolbench:none:20260724T143830": {
+      "experiment": "experiments/round15",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T143830",
+      "path": "experiments/round15/toolbench/default/round15_20260724T143830.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:6a092cb7180fdc72",
+      "size_bytes": 3674,
+      "duration_seconds": null,
+      "script": "round15.py"
+    },
+    "experiments/round16:default:mixed:none:20260724T150553": {
+      "experiment": "experiments/round16",
+      "config": "default",
+      "dataset": "mixed",
+      "variant": "none",
+      "timestamp": "20260724T150553",
+      "path": "experiments/round16/mixed/default/round16_20260724T150553.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:e78b6c1841c91ddc",
+      "size_bytes": 5252,
+      "duration_seconds": null,
+      "script": "round16.py"
+    },
+    "experiments/round17:default:mixed:none:20260724T154130": {
+      "experiment": "experiments/round17",
+      "config": "default",
+      "dataset": "mixed",
+      "variant": "none",
+      "timestamp": "20260724T154130",
+      "path": "experiments/round17/mixed/default/round17_20260724T154130.json",
+      "params": {
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:09bf8ce8c79a1d45",
+      "size_bytes": 3862,
+      "duration_seconds": null,
+      "script": "round17.py"
+    },
+    "experiments/adversary_sweep_toolbench:default:toolbench:none:20260724T193757": {
+      "experiment": "experiments/adversary_sweep_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T193757",
+      "path": "experiments/adversary_sweep_toolbench/toolbench/default/adversary_sweep_toolbench_20260724T193757.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:dd2e312d1f404dd8",
+      "size_bytes": 3022,
+      "duration_seconds": null,
+      "script": "adversary_sweep.py"
+    },
+    "experiments/adversary_sweep_abcd:default:abcd:none:20260724T201721": {
+      "experiment": "experiments/adversary_sweep_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260724T201721",
+      "path": "experiments/adversary_sweep_abcd/abcd/default/adversary_sweep_abcd_20260724T201721.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:3c58d19adf91dd1b",
+      "size_bytes": 2775,
+      "duration_seconds": null,
+      "script": "adversary_sweep.py"
+    },
+    "experiments/adversary_sweep_bge:default:bge:none:20260724T202547": {
+      "experiment": "experiments/adversary_sweep_bge",
+      "config": "default",
+      "dataset": "bge",
+      "variant": "none",
+      "timestamp": "20260724T202547",
+      "path": "experiments/adversary_sweep_bge/bge/default/adversary_sweep_bge_20260724T202547.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:96a0b9b9e6e7c326",
+      "size_bytes": 3031,
+      "duration_seconds": null,
+      "script": "adversary_sweep.py"
+    },
+    "experiments/adversary_sweep_toolbench:default:toolbench:none:20260724T202826": {
+      "experiment": "experiments/adversary_sweep_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T202826",
+      "path": "experiments/adversary_sweep_toolbench/toolbench/default/adversary_sweep_toolbench_20260724T202826.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:2fa4fea2fe01045b",
+      "size_bytes": 3003,
+      "duration_seconds": null,
+      "script": "adversary_sweep.py"
+    },
+    "experiments/frontier_sweep_toolbench:default:toolbench:none:20260724T203907": {
+      "experiment": "experiments/frontier_sweep_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T203907",
+      "path": "experiments/frontier_sweep_toolbench/toolbench/default/frontier_sweep_toolbench_20260724T203907.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "4",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:7c2a227b3b7cd7cb",
+      "size_bytes": 10638,
+      "duration_seconds": null,
+      "script": "frontier_sweep.py"
+    },
+    "experiments/frontier_sweep_toolbench:default:toolbench:none:20260724T211955": {
+      "experiment": "experiments/frontier_sweep_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T211955",
+      "path": "experiments/frontier_sweep_toolbench/toolbench/default/frontier_sweep_toolbench_20260724T211955.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "4",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:6a54a8813304ed81",
+      "size_bytes": 10638,
+      "duration_seconds": null,
+      "script": "frontier_sweep.py"
+    },
+    "experiments/frontier_sweep_bge:default:bge:none:20260724T212830": {
+      "experiment": "experiments/frontier_sweep_bge",
+      "config": "default",
+      "dataset": "bge",
+      "variant": "none",
+      "timestamp": "20260724T212830",
+      "path": "experiments/frontier_sweep_bge/bge/default/frontier_sweep_bge_20260724T212830.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "4",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:cf24d3338833c9bb",
+      "size_bytes": 10642,
+      "duration_seconds": null,
+      "script": "frontier_sweep.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260724T221620": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T221620",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260724T221620.json",
+      "params": {
+        "exemplar": 12543,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:dd2fa87fdc19ce09",
+      "size_bytes": 727,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260724T221727": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260724T221727",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260724T221727.json",
+      "params": {
+        "exemplar": 12543,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:755deb83ba7f4150",
+      "size_bytes": 727,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/frontier_sweep_abcd:default:abcd:none:20260724T221756": {
+      "experiment": "experiments/frontier_sweep_abcd",
+      "config": "default",
+      "dataset": "abcd",
+      "variant": "none",
+      "timestamp": "20260724T221756",
+      "path": "experiments/frontier_sweep_abcd/abcd/default/frontier_sweep_abcd_20260724T221756.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "4",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:60ee63126cfc9dbd",
+      "size_bytes": 9820,
+      "duration_seconds": null,
+      "script": "frontier_sweep.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260725T094216": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260725T094216",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260725T094216.json",
+      "params": {
+        "exemplar": 12543,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:0bf1f90ba6c209bb",
+      "size_bytes": 727,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260725T095413": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260725T095413",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260725T095413.json",
+      "params": {
+        "exemplar": 12543,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:1e25ccc55c3bad90",
+      "size_bytes": 727,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260725T100433": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260725T100433",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260725T100433.json",
+      "params": {
+        "exemplar": 3924,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:fd1471d4016b8cab",
+      "size_bytes": 725,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/paper_figures:default:toolbench:none:20260725T112645": {
+      "experiment": "experiments/paper_figures",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260725T112645",
+      "path": "experiments/paper_figures/toolbench/default/paper_figures_20260725T112645.json",
+      "params": {
+        "exemplar": 3924,
+        "seed": 42
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:eff2a78b779d97e8",
+      "size_bytes": 726,
+      "duration_seconds": null,
+      "script": "paper_figures.py"
+    },
+    "experiments/adversary_sweep_toolbench:default:toolbench:none:20260725T114923": {
+      "experiment": "experiments/adversary_sweep_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260725T114923",
+      "path": "experiments/adversary_sweep_toolbench/toolbench/default/adversary_sweep_toolbench_20260725T114923.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:3c72779b3d8ab718",
+      "size_bytes": 3004,
+      "duration_seconds": null,
+      "script": "adversary_sweep.py"
+    },
+    "experiments/shape_reward_sgd:default:sgd:none:20260725T124015": {
+      "experiment": "experiments/shape_reward_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260725T124015",
+      "path": "experiments/shape_reward_sgd/sgd/default/shape_reward_sgd_20260725T124015.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "trials": 2000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:e400e91867cb8d0c",
+      "size_bytes": 6141,
+      "duration_seconds": null,
+      "script": "shape_reward.py"
+    },
+    "experiments/shape_reward_mwoz:default:mwoz:none:20260725T124023": {
+      "experiment": "experiments/shape_reward_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260725T124023",
+      "path": "experiments/shape_reward_mwoz/mwoz/default/shape_reward_mwoz_20260725T124023.json",
+      "params": {
+        "seed": 42,
+        "ns": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32
+        ],
+        "trials": 2000
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:f7f952e8f001d15f",
+      "size_bytes": 6147,
+      "duration_seconds": null,
+      "script": "shape_reward.py"
+    },
+    "experiments/endpoint_shape_sgd:default:sgd:none:20260725T124024": {
+      "experiment": "experiments/endpoint_shape_sgd",
+      "config": "default",
+      "dataset": "sgd",
+      "variant": "none",
+      "timestamp": "20260725T124024",
+      "path": "experiments/endpoint_shape_sgd/sgd/default/endpoint_shape_sgd_20260725T124024.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:4f42317378680474",
+      "size_bytes": 2854,
+      "duration_seconds": null,
+      "script": "endpoint_shape.py"
+    },
+    "experiments/endpoint_shape_mwoz:default:mwoz:none:20260725T124025": {
+      "experiment": "experiments/endpoint_shape_mwoz",
+      "config": "default",
+      "dataset": "mwoz",
+      "variant": "none",
+      "timestamp": "20260725T124025",
+      "path": "experiments/endpoint_shape_mwoz/mwoz/default/endpoint_shape_mwoz_20260725T124025.json",
+      "params": {},
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:84188534649d4179",
+      "size_bytes": 2861,
+      "duration_seconds": null,
+      "script": "endpoint_shape.py"
+    },
+    "experiments/frontier_sweep_toolbench:default:toolbench:none:20260725T124619": {
+      "experiment": "experiments/frontier_sweep_toolbench",
+      "config": "default",
+      "dataset": "toolbench",
+      "variant": "none",
+      "timestamp": "20260725T124619",
+      "path": "experiments/frontier_sweep_toolbench/toolbench/default/frontier_sweep_toolbench_20260725T124619.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "4",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:7c52243c3a8d3a2d",
+      "size_bytes": 10639,
+      "duration_seconds": null,
+      "script": "frontier_sweep.py"
+    },
+    "experiments/frontier_sweep_bge:default:bge:none:20260725T130132": {
+      "experiment": "experiments/frontier_sweep_bge",
+      "config": "default",
+      "dataset": "bge",
+      "variant": "none",
+      "timestamp": "20260725T130132",
+      "path": "experiments/frontier_sweep_bge/bge/default/frontier_sweep_bge_20260725T130132.json",
+      "params": {
+        "seed": 42,
+        "budgets": [
+          "1",
+          "4",
+          "16",
+          "64",
+          "256",
+          "exhaustive"
+        ]
+      },
+      "summary": {},
+      "tags": [],
+      "checksum": "sha256:37b381a36f331dd8",
+      "size_bytes": 10643,
+      "duration_seconds": null,
+      "script": "frontier_sweep.py"
+    }
+  }
+}

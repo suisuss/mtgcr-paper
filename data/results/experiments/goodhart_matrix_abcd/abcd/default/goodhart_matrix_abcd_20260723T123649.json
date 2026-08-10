@@ -1,0 +1,76 @@
+{
+  "_provenance": {
+    "experiment": "experiments/goodhart_matrix_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42,
+      "ns": [
+        1,
+        16
+      ]
+    },
+    "timestamp": "20260723T123649",
+    "script": "goodhart_matrix.py",
+    "duration_seconds": null,
+    "git_commit": "fe17abd21ab28e238610c75fc684bf310048bea1",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "4607f15d572b93b014b123ef889aed47271bd2639b1cf324a5ee6343dd2f0862",
+    "argv": [
+      "goodhart_matrix.py",
+      "abcd"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n_test_failures": 172,
+    "pool_size": 46119,
+    "arms": {
+      "floor_dense": {
+        "accuracy_auc": 0.7352756296999993,
+        "threshold": 2.145066735647352,
+        "base_recall": 0.14534883720930233,
+        "recall_n1_drift": 0.2558139534883721,
+        "recall_n16": 0.046511627906976744,
+        "manipulability": 0.68,
+        "suppressed_n16": 164,
+        "caught_by_tripwire": null
+      },
+      "foil_trace": {
+        "accuracy_auc": 0.5216142249607131,
+        "threshold": 0.313052332366289,
+        "base_recall": 0.06976744186046512,
+        "recall_n1_drift": 0.18023255813953487,
+        "recall_n16": 0.03488372093023256,
+        "manipulability": 0.5,
+        "suppressed_n16": 166,
+        "caught_by_tripwire": null
+      },
+      "method_gram": {
+        "accuracy_auc": 0.7596644078556017,
+        "threshold": 1.986890739494967,
+        "base_recall": 0.3546511627906977,
+        "recall_n1_drift": 0.38372093023255816,
+        "recall_n16": 0.046511627906976744,
+        "manipulability": 0.8688524590163934,
+        "suppressed_n16": 164,
+        "caught_by_tripwire": null
+      },
+      "governed_gram": {
+        "accuracy_auc": 0.7596644078556017,
+        "threshold": 1.986890739494967,
+        "base_recall": 0.3546511627906977,
+        "recall_n1_drift": 0.38372093023255816,
+        "recall_n16": 0.1744186046511628,
+        "manipulability": 0.5081967213114754,
+        "suppressed_n16": 164,
+        "caught_by_tripwire": 22
+      }
+    }
+  }
+}

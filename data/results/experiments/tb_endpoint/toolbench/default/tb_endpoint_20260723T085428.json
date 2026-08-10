@@ -1,0 +1,58 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tb_endpoint",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {},
+    "timestamp": "20260723T085428",
+    "script": "tb_endpoint.py",
+    "duration_seconds": null,
+    "git_commit": "db757c2b608069b43cba9b30623ddf3099fdea0b",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "ac364ee77a653eeae814d9c11df47d25b4bc18b070f2edf74d102ed0cc6b6e73",
+    "argv": [
+      "tb_endpoint.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n": 12598,
+    "failure_rate": 0.20169868233052865,
+    "functionals": {
+      "E1_final_turn": {
+        "auc": 0.7303096278798413,
+        "p": 9.968179365299262e-283,
+        "n": 12598,
+        "fdr_pass": true
+      },
+      "E2_final_thought": {
+        "auc": 0.5785594398728169,
+        "p": 8.273338417918415e-28,
+        "n": 7651,
+        "fdr_pass": true
+      },
+      "E3_final_tool_result": {
+        "auc": 0.7222832413292247,
+        "p": 1.636655904737438e-263,
+        "n": 12598,
+        "fdr_pass": true
+      },
+      "E4_min_goal_dist": {
+        "auc": 0.45757773763143156,
+        "p": 3.631164214521065e-11,
+        "n": 12598,
+        "fdr_pass": true
+      },
+      "E5_min_tau": {
+        "auc": 0.5,
+        "p": 1.0,
+        "n": 12598,
+        "fdr_pass": false
+      }
+    }
+  }
+}

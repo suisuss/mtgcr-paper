@@ -1,0 +1,33 @@
+{
+  "_provenance": {
+    "experiment": "experiments/abcd_preprocess",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "success_threshold": 0.8
+    },
+    "timestamp": "20260723T104030",
+    "script": "abcd_preprocess.py",
+    "duration_seconds": null,
+    "git_commit": "d88c2bbeb315e4d73af44ad0da0833e46e440c9c",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "37f80792bf6086270cc18026fbf2fda74c29dbf485520e7a75e518616be6982d",
+    "argv": [
+      "abcd_preprocess.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "n_conversations": 10042,
+    "n_labeled": 6399,
+    "n_unmapped": 3643,
+    "failure_rate": 0.13361462728551335,
+    "mean_action_coverage": 0.8927436578632079,
+    "n_mapped_subflow_pairs": 64,
+    "avg_turns": 22.00587532364071
+  }
+}

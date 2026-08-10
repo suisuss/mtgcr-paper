@@ -1,0 +1,42 @@
+{
+  "_provenance": {
+    "experiment": "experiments/tool_anchored_g1",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42
+    },
+    "timestamp": "20260723T145029",
+    "script": "tool_anchored_g1.py",
+    "duration_seconds": null,
+    "git_commit": "c54de846fc8456e34ae819360195b98d0a06a230",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "8e4f8db0f4b898f9fb31162799544edea6f6ff3c802e2a0bfdddc067083aa738",
+    "argv": [
+      "tool_anchored_g1.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "toolbench",
+    "n_test_failures": 498,
+    "arms": {
+      "gram1_flat": {
+        "accuracy_auc": 0.7939884536980844,
+        "base_recall": 0.785140562248996,
+        "n16_recall": 0.39759036144578314,
+        "manipulability": 0.4936061381074169
+      },
+      "gram1_tethered": {
+        "accuracy_auc": 0.7934113460830233,
+        "base_recall": 0.7871485943775101,
+        "n16_recall": 0.41767068273092367,
+        "manipulability": 0.46938775510204084
+      }
+    }
+  }
+}

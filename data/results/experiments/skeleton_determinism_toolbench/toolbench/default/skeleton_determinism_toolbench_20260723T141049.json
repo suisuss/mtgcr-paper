@@ -1,0 +1,37 @@
+{
+  "_provenance": {
+    "experiment": "experiments/skeleton_determinism_toolbench",
+    "config": "default",
+    "dataset": "toolbench",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "min_group": 5
+    },
+    "timestamp": "20260723T141049",
+    "script": "skeleton_determinism.py",
+    "duration_seconds": null,
+    "git_commit": "95ff22d25ec4302e64f7b82333acd1c5a0c3c2fb",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "e9cb2cd8d3c631be8dbfd1135c4e7bea332fdfdffa4d77fecedf313896ac50e7",
+    "argv": [
+      "skeleton_determinism.py",
+      "toolbench"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "toolbench",
+    "n": 12598,
+    "base_rate": 0.20169868233052865,
+    "base_purity": 0.7983013176694713,
+    "n_unique_skeletons": 6298,
+    "n_shared_groups": 484,
+    "coverage_in_shared": 0.3659311001746309,
+    "outcome_purity_shared": 0.8314533622559653,
+    "determinism_gap": 0.03315204458649401,
+    "ambiguous_fraction_of_shared": 0.63058568329718
+  }
+}

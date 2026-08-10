@@ -1,0 +1,55 @@
+{
+  "_provenance": {
+    "experiment": "experiments/skeleton_abcd",
+    "config": "default",
+    "dataset": "abcd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "seed": 42
+    },
+    "timestamp": "20260723T140246",
+    "script": "skeleton_abcd.py",
+    "duration_seconds": null,
+    "git_commit": "b98f5f61ce3af28d944e5e22ace24ffc21c24c9f",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "b727597223b30398c165e594dad38126b0d01f9201dd9a4346a65c7e96faa871",
+    "argv": [
+      "skeleton_abcd.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "dataset": "abcd",
+    "n_test_failures": 150,
+    "n_slugs": 30,
+    "arms": {
+      "A_flat": {
+        "accuracy_auc": 0.7685665943613716,
+        "base_recall": 0.3333333333333333,
+        "n16_recall": 0.06666666666666667,
+        "manipulability": 0.8
+      },
+      "B_skeleton": {
+        "accuracy_auc": 0.6433340614723124,
+        "base_recall": 0.31333333333333335,
+        "n16_recall": 0.31333333333333335,
+        "manipulability": 0.0
+      },
+      "C_tethered": {
+        "accuracy_auc": 0.7705206592857452,
+        "base_recall": 0.3466666666666667,
+        "n16_recall": 0.06,
+        "manipulability": 0.826923076923077
+      },
+      "D_count": {
+        "accuracy_auc": 0.5337032099083041,
+        "base_recall": 1.0,
+        "n16_recall": 1.0,
+        "manipulability": 0.0
+      }
+    }
+  }
+}

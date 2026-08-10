@@ -1,0 +1,24 @@
+{
+ "dataset": "toolbench",
+ "n_test_failures": 498,
+ "arms": {
+  "skeleton": {
+   "accuracy_auc": 0.7064484488222875,
+   "base_recall": 0.357429718875502,
+   "n16_recall": 0.357429718875502,
+   "manipulability": 0.0
+  },
+  "relational": {
+   "accuracy_auc": 0.7621708707447001,
+   "base_recall": 0.5120481927710844,
+   "n16_recall": 0.1646586345381526,
+   "manipulability": 0.6784313725490196
+  },
+  "gated": {
+   "accuracy_auc": 0.7567863830405261,
+   "base_recall": 0.572289156626506,
+   "n16_recall": 0.18674698795180722,
+   "manipulability": 0.6736842105263158
+  }
+ }
+}

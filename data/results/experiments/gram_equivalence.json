@@ -1,0 +1,7 @@
+{
+ "sequences_checked": 4866,
+ "max_abs_g0_vs_mean": 0.0,
+ "max_abs_curve_delta": 1.942890293094024e-16,
+ "max_abs_uss_gapnorm_delta": 7.771561172376096e-16,
+ "pass": true
+}

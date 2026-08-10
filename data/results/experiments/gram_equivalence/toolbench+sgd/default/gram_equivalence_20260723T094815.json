@@ -1,0 +1,32 @@
+{
+  "_provenance": {
+    "experiment": "experiments/gram_equivalence",
+    "config": "default",
+    "dataset": "toolbench+sgd",
+    "variant": "none",
+    "n_samples": null,
+    "params": {
+      "tolerance": 0.0001,
+      "max_conversations": 2000
+    },
+    "timestamp": "20260723T094815",
+    "script": "gram_equivalence.py",
+    "duration_seconds": null,
+    "git_commit": "8b27679b1ff4135c68d5424beee1de6de5fd0382",
+    "git_branch": "main",
+    "git_dirty": false,
+    "script_sha256": "8e89bca4eda3d625286d6ba13e6ef4479cb8f221579e99b33aa40441a00301b3",
+    "argv": [
+      "gram_equivalence.py"
+    ],
+    "python": "3.13.5",
+    "hostname": "debian"
+  },
+  "results": {
+    "sequences_checked": 4866,
+    "max_abs_g0_vs_mean": 0.0,
+    "max_abs_curve_delta": 1.942890293094024e-16,
+    "max_abs_uss_gapnorm_delta": 7.771561172376096e-16,
+    "pass": true
+  }
+}
