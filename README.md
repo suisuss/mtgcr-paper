@@ -10,7 +10,7 @@ This is the **reward paper** of a three-paper line on reading conversations as t
 
 *Status: preprint in preparation. The kit is complete and gated; the manuscript has not yet been posted or peer-reviewed.*
 
-## For reviewers: start here
+## Start here
 
 | | |
 |---|---|
@@ -50,8 +50,6 @@ A trajectory-geometric early-warning predictor is **materially gameable by selec
 
 But the exploitability is not a property of "content": it is a property of *which role the adversary can write*. A model optimizing the reward controls only its own turns; the user's turns, the tool calls, and the tool results are fixed evidence of what happened. Dropping only the writable role — scoring the fixed user/tool-call/tool-result channels — recovers ~97% of the accuracy at **zero** manipulability. Re-admitting the model's content only as its **conditional typicality** against that fixed evidence recovers essentially all of it while becoming mildly anti-gameable. And the whole thing is un-gameable *in substance* only when **conditioned on the task**, where the outcome is recomputable from the actions: fooling it requires actually completing the task.
 
-The recipe: *score the fixed evidence, admit the narration only as its consistency with that evidence, condition on the task.*
-
 ### What it does not claim
 
 Section 8 of the paper lists eight limitations, two of them declared scope decisions. The material ones:
@@ -74,7 +72,7 @@ Each repo is a self-contained, public reproduction kit built on the same harness
 | [`actr-paper`](https://github.com/suisuss/actr-paper) | Representation | Which trajectory representation predicts satisfaction, the role-split recommendation, and the regime boundary. Closes by warning that the best predictor may be the most gameable reward. |
 | **`mtgcr-paper`** (this repo) | **Reward** | Answers that warning — and builds the construction that survives it. |
 
-The lineage is load-bearing, not decorative:
+Two concrete dependencies:
 
 - **From `gp-paper`**: `src/lib/gram.py` is ported verbatim (minus unused decompositions) from that kit's `src/lib/encoders/gram.py`. The early-warning head here is the **degree-0 term** of that projection — which, by the method paper's first identity, is exactly the per-role mean. That the results below hold even at mean pooling is the point: the manipulability structure is a property of the *role split*, not of the geometric order.
 - **From `actr-paper`**: the role-split representation, and the explicit hand-off — that paper recommends the best satisfaction predictor while flagging that it may be the most gameable reward. This paper is the answer to that flag. Rounds 1-3 also read `actr-paper`'s committed artifacts directly from a sibling checkout (see [Data](#data)).
@@ -224,21 +222,17 @@ The investigation ran as pre-registered rounds; each has a `PREREGISTRATION-R*.m
 | 17 | The two-mode deployment | The running early-warning is genuine: at matched false-alarm rate it catches more failures two-plus steps early than a same-turn-content baseline (37% vs 29% on ToolBench, 40% vs 35% on the longer ABCD dialogues, median lead six turns). Degree-1 velocity adds nothing early or late, so the deployment is one degree-0 head read at two positions. |
 | 18-19 | Adversary strength to the selection ceiling; the accuracy/gameability frontier | The typicality residual's anti-gameability is not structural — it erodes at the exhaustive ceiling on ToolBench and is flat at zero on ABCD; the frontier maps the design space (Table 8), and the naive-head budget curve is round 18's alone. |
 
-Rounds 6-7 and 12 are written against **the predecessor design**, a proposal from an earlier, non-public repository: reward *governance via channel-factorizable features* — score one channel, monitor another, tripwire a third — together with the comparator matrix, the minimum discriminating arm set, and the matched-predictor reporting rule those rounds run here. The one deliberate change is the instrument: its own spike found its LLM judge more arc-biased than the reward was hackable, so these rounds judge against verified labels and per-turn human ratings instead. The code taken from that repository — the ToolBench preprocess — is vendored here in full, with its source commit pinned in `KIT_PROVENANCE.json` as `toolbench_turn_encoding_commit`.
-
-The pre-registrations refer to it by its original issue shorthand, `turn-encoding#92`, as do the two source files that cite them (`toolbench_preprocess.py`, `tool_relational.py`). Those files are left byte-for-byte as they were when they produced their artifacts — a pre-registration edited after its round is no longer evidence of what was fixed in advance, and those two scripts still hash to the `script_sha256` recorded in the results they generated.
+Rounds 6-7 and 12 run a design inherited from an earlier, non-public repository (issue shorthand `turn-encoding#92`, which is how the pre-registrations and two source files — `toolbench_preprocess.py`, `tool_relational.py` — refer to it): reward *governance via channel-factorizable features* — score one channel, monitor another, tripwire a third — with its comparator matrix, minimum discriminating arm set, and matched-predictor reporting rule. The one deliberate change is the instrument: that design's own spike found its LLM judge more arc-biased than the reward was hackable, so these rounds judge against verified labels and per-turn human ratings instead. Its ToolBench preprocess is vendored here in full (source commit pinned in `KIT_PROVENANCE.json` as `toolbench_turn_encoding_commit`), and the citing files are left byte-for-byte as they were when they produced their artifacts: a pre-registration edited after its round is no longer evidence of what was fixed in advance, and the two scripts still hash to the `script_sha256` recorded in their results.
 
 ## How the kit keeps the paper honest
 
-The infrastructure in `src/lib/` was built deliberately, for one purpose: a paper should be confident it reproduces itself *while being developed*, not just at the end. Four mechanisms carry that guarantee — **resumability, caching, provenance, and integrity checking** — and each is enforced by the pipeline rather than left to discipline. A researcher cannot forget to do them, and cannot quietly skip them to make a number appear.
+The premise of the kit: a paper should be confident it reproduces itself *while being developed*, not just at the end. Four mechanisms in `src/lib/` carry that — **resumability, caching, provenance, and integrity checking** — each enforced by the pipeline rather than left to discipline. That matters here specifically: a manipulability number is a claim that someone *could not* game a reward, accumulated over many rounds of pre-registered work.
 
-That enforcement is load-bearing here specifically. This paper's claims are adversarial — a manipulability number is a claim that someone *could not* game a reward — and they accumulated over many rounds of pre-registered work. Machine-checked reproduction is what makes a long record auditable rather than merely long.
+### The discipline beyond the harness
 
-### The discipline, in four rules
+Two rules are this paper's own; the draft-vs-artifact gate and per-artifact provenance below are the harness's.
 
 - **Pre-registration.** Researcher degrees of freedom are fixed in a committed `PREREGISTRATION-R*.md` before any outcome-correlated result is seen. Kill conditions and confound bars are written in advance.
-- **Draft-vs-artifact gate.** `verify_draft_tables.py` regenerates every table from `data/results/` and fails the run if a printed cell disagrees with the artifact — a paper cannot silently drift from its code.
-- **Provenance on every artifact.** Git commit, dirty flag, script sha256, and argv are stamped on each result (`cd src && python -m lib.campaign verify`). A number from a dirty tree does not count.
 - **Adversarial, verified-label judging.** Manipulability is measured with a weak selection adversary (lower bounds) and judged against *verified outcome labels and per-turn human ratings* — never an LLM judge, which shares the embedding proxies' blind spots (round 7 documents a case where the LLM judge is more biased toward the exploit than the reward is exploitable).
 
 ### The stage contract
@@ -255,9 +249,9 @@ Importing a module never executes work. That is what lets `main.py` compile the 
 
 ### Resumability — a killed run is always safe to rerun
 
-Stage state lives in `.reproduce/main/`: `pipeline.json` is the compiled stage list, `pipeline.state.json` tracks per-stage status, and `logs/` holds per-stage output. `lib/pipeline.py` is a detached, restart-recoverable runner — it replaced ad-hoc bash chains (`cmd1; cmd2; ...` with sentinel greps), which proved fragile in practice.
+`lib/pipeline.py` is a detached, restart-recoverable runner. Stage state lives in `.reproduce/main/`: `pipeline.json` is the compiled stage list, `pipeline.state.json` tracks per-stage status, and `logs/` holds per-stage output.
 
-Re-run `./run.sh` after any interruption and completed stages are skipped; `python main.py status` shows the stage table. A second concurrent supervisor on the same state is refused by a file lock, so two runs cannot race and corrupt each other's state. `lib/ioutils.py` writes every file atomically, so an interrupted write cannot leave a partial file that `exists()` later reports as good — the failure mode that makes naive resumability worse than none. `lib/runtime.py` caps CPU, memory, and process priority so a long run does not starve the host.
+Re-run `./run.sh` after any interruption and completed stages are skipped; `python main.py status` shows the stage table. A file lock refuses a second concurrent supervisor on the same state, `lib/ioutils.py` writes every file atomically — an interrupted write cannot leave a partial file that `exists()` later reports as good — and `lib/runtime.py` caps CPU, memory, and process priority so a long run does not starve the host.
 
 **The DAG is data-gated.** Stages join only once their fetched corpus is present on disk, so a fresh clone with no data runs green rather than failing — you can validate the paper, and grow the pipeline corpus by corpus, without ever hitting a wall of missing-data errors.
 
@@ -265,13 +259,13 @@ Re-run `./run.sh` after any interruption and completed stages are skipped; `pyth
 
 Every expensive stage checkpoints under `data/experiment-caches/<script>/` through `lib.campaign.Checkpoint`, stamped in `producer.json` with the producing script's **logic digest**: a hash of the parsed AST, not of the file bytes. Comment- and formatting-only edits leave it unchanged and do not wipe cached checkpoints; only a change to the code itself re-invalidates. If the source does not currently parse (mid-edit), it falls back to a byte hash.
 
-This is deliberately separate from the exact file sha256 recorded in each artifact's `_provenance` for external verifiability — one digest is for *cache correctness*, the other for *audit*, and conflating them either wipes caches on a typo fix or lets a logic change slip through.
+The logic digest is separate from the file sha256 recorded in each artifact's `_provenance`: one is for *cache correctness*, the other for *audit*.
 
-**Never hand-delete a cache to force freshness.** The invariant is that cache validity is derived from the code, not from memory of what you last edited; deleting by hand is how a stale number survives a rerun. With 1.6GB of caches over encode-once corpora, that invariant is what makes editing a late-stage script cheap and safe.
+**Never hand-delete a cache to force freshness**: cache validity derives from the code, not from memory of what you last edited. With 1.6GB of caches over encode-once corpora, that is what makes editing a late-stage script cheap and safe.
 
 ### Provenance — every number knows which code produced it
 
-A results JSON that says `auc 0.769` is only reproducible if it also says which code produced it. `lib/provenance.py` stamps every artifact with the git commit, the dirty flag, the script sha256, and the argv. `save_result()` writes both the canonical flat copy the tables read and an immutable provenance-stamped copy in the run history:
+`lib/provenance.py` stamps every artifact with the git commit, the dirty flag, the script sha256, and the argv. `save_result()` writes both the canonical flat copy the tables read and an immutable provenance-stamped copy in the run history:
 
 ```
 data/results/experiments/<name>.json                          canonical latest (tracked)
@@ -298,9 +292,7 @@ Provenance fixes *which code* ran; the pinned single-thread BLAS (`OMP_NUM_THREA
 
 Every generated figure and table carries a `<!-- src: script.py -->` tag, which is what makes gates 2 and 4 mechanical rather than manual. The PDF gate is content-fidelity, not a byte diff: XeLaTeX output is not byte-reproducible across TeX Live versions, so it compares the *multiset of words* in the rebuild against the committed PDF — metadata, whitespace, hyphenation, word order, and pagination all normalize away, so it fails exactly when a word changed, i.e. when the PDF is stale.
 
-The record this gates is unusually large: `paper/reproduction_record.md` carries 22 sections and 45 tables, every cell verified against its artifact. The manuscript curates from it, so the manuscript cannot print a number the record does not hold.
-
-Together these close the loop the ordinary paper leaves open: the draft cannot claim a number the artifacts do not contain, the artifacts cannot come from uncommitted code, and the PDF cannot lag the draft.
+The gated record is unusually large: `paper/reproduction_record.md` carries 22 sections and 45 tables, every cell verified against its artifact. The manuscript curates from it, so the manuscript cannot print a number the record does not hold.
 
 ### External data is never fetched implicitly
 
